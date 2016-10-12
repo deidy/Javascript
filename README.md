@@ -88,3 +88,10 @@ O el caracter `*`
 O el caracter `__`
 
 ___
+
+> Otro quote :)
+
+## Videos de Youtube
+
+<a href="https://www.youtube.com/watch?v=B1MJqT21Bx4" target="_blank"><img src="http://nodeframework.com/assets/img/js.png" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
