@@ -25,3 +25,13 @@ Este repositorio forma parte del [Curso de tecnologías web](https://github.com/
 
 Para nosotros utilizar imagenes debemos de colocar un texto alternativo en brackets[] despues del caracter de exclamación ! y el link de la imagen entre parentesis
 ![Imagen de Js en color amarillo](http://nodeframework.com/assets/img/js.png "Javascript")
+
+## Formato de Codigo
+
+Para nosotros utilizar el formateo de copdigo dentro de texto plano debemos utilizar el caracter `Tilde Invertida`
+
+Para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar 3 `Tildes invertidas` donde se oyede especificar el lenguaje de programacion a usarse para el formateo del codigo, justo despues de las 3 `Tildes invertidas`
+
+```javascript
+var mensaje="Hola mundo";
+```
