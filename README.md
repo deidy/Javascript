@@ -37,3 +37,10 @@ Para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar 
 ```javascript
 var mensaje="Hola mundo";
 ```
+
+* Bloque de codigo de una `consola`
+
+```
+> apt-get update paquete
+>
+```
