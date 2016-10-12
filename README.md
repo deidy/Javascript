@@ -93,5 +93,6 @@ ___
 
 ## Videos de Youtube
 
+Es uso puro de HTML dentro de markdown
 <a href="https://www.youtube.com/watch?v=B1MJqT21Bx4" target="_blank"><img src="http://nodeframework.com/assets/img/js.png" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
