@@ -21,6 +21,8 @@ Este repositorio forma parte del [Curso de tecnologías web](https://github.com/
 
 ## Links
 
+Para utilizar un [Link](https://github.com/adrianeguez/Tec_Web_Js_2016_B) debemos de encerrar el texto en brackets [] seguido del URL en parentesis ()
+
 ## Imagenes
 
 Para nosotros utilizar imagenes debemos de colocar un texto alternativo en brackets[] despues del caracter de exclamación ! y el link de la imagen entre parentesis
