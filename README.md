@@ -54,7 +54,7 @@ var mensaje="Hola mundo";
 
 ## Tablas
 
-Para usar tablas necesitamos definir las filas con "|" y 3 "-" para separar el titulo de cada columna
+Para usar tablas necesitamos definir las filas con "|" y 3 "-" para separar el titulo en cada columna
 
 Columna 1 | Columna 2 | Columna 3 | Columna 4
 --- | --- | --- | ---
@@ -62,3 +62,14 @@ Valor 1 C1 | Valor 1 C2 | Valor 1 C3 | Valor 1 C4
 Valor 2 C1 | Valor 2 C2 | Valor 2 C3 | Valor 2 C4 
 Valor 3 C1 | Valor 3 C2 | Valor 3 C3 | Valor 3 C4 
 Valor 4 C1 | Valor 4 C2 | Valor 4 C3 | Valor 4 C4 
+
+## Citas (no de humanos sino de texto)
+
+Para escribir varias líneas de citas solamente las concatenamos en la siguiente línea utilizando mayor que `>`:
+
+> Yo solo se, que nada se. 
+> Un filosofo random.
+
+Sino utilizamos una cita en una linea con el mayor que `>`:
+
+> Y si me matas, ¿Me muero?
