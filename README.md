@@ -67,8 +67,9 @@ Valor 4 C1 | Valor 4 C2 | Valor 4 C3 | Valor 4 C4
 
 Para escribir varias líneas de citas solamente las concatenamos en la siguiente línea utilizando mayor que `>`:
 
-> Yo solo se, que nada se. 
-> Un filosofo random.
+> Yo solo se, que nada se. NO OLVIDARSE DEL SALTO DE LINEA
+
+> Un filosofo random. NO OLVIDARSE DEL SALTO DE LINEA
 
 Sino utilizamos una cita en una linea con el mayor que `>`:
 
