@@ -2,13 +2,13 @@
 
 ### Materia: `Tecnologías Web con JavaScript`
 <p align="center">
-<img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" width="300" height="200">
+<img src="http://img.microsiervos.com/images2016/javascript_logo.png" width="300" height="200">
 </p>
-### Tema : `Introducción a la Web` 
-### Fecha : `2016-10-25`
-### Estudiante : `Deidamia Patricia Quishpe Cumba`
-### Profesor : `Tania Calle - Adrian Eguez`
-### Número de informe : `1`
+### Tema: `Introducción a la Web` 
+### Fecha: `2016-10-25`
+### Estudiante: `Deidamia Patricia Quishpe Cumba`
+### Profesor: `Tania Calle - Adrian Eguez`
+### Número de informe: `1`
 
 <a name="cabecera"></a>
 
