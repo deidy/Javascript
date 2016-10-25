@@ -124,12 +124,15 @@ Una página web es un documento electrónico que forma parte de la www, el cual 
 <a name="servidor"></a>
 ### Instalación del Servidor Local HTTP
 En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
+<br>
 **npm install http-server**
 
 Mientras que para instalarlo de manera global, se hace uso del siguiente comando:
+<br>
 **npm install http-server -g**
 
 A continuación se procede a iniciar el servidor, mediante el siguiente comando:
+<br>
 **http-server**
 
 <br>
