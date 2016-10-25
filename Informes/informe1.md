@@ -23,6 +23,10 @@
     * <a href="#navegador">Definición de Navegador</a>
     * <a href="#pagweb">Definición de Página Web</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
+    * <a href="#postman">Uso de la herramienta Postman</a>
+    * <a href="#inspector">Cambio de color mediante Inspector</a>
+    * <a href="#etiquetas">Etiquetas HTML</a>
+    * <a href="#servidor">Instalación del Servidor Local HTTP</a>
 - <a href="#concRecom">Conclusiones y Recomendaciones</a>
 
 <a name="tema"></a>
@@ -35,6 +39,7 @@
 
 - Conocer la definición de términos usados en la Web.
 - Aprender el lenguaje de marcado o HTML. 
+- Conocer herramientas de desarrolladores web como: postman, inspector web.
 
 <a name="marcoteorico"></a>
 ## Marco Teórico
@@ -106,6 +111,26 @@ Una página web es un documento electrónico que forma parte de la www, el cual 
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
+<a name="#postman"></a>
+### Uso de la herramienta Postman
+
+
+<a name="#inspector"></a>
+### Cambio de color mediante Inspector
+
+<a name="#etiquetas"></a>
+### Etiquetas HTML
+
+<a name="servidor"></a>
+### Instalación del Servidor Local HTTP
+En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
+**npm install http-server
+
+Mientras que para instalarlo de manera global, se hace uso del siguiente comando:
+**npm install http-server -g
+
+A continuación se procede a iniciar el servidor, mediante el siguiente comando:
+**http-server
 
 <br>
 <a href="#cabecera">A la cabecera</a>
