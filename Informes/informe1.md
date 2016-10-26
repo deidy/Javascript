@@ -209,7 +209,51 @@ Dentro de los elementos de la página web, se encuentran los estilos que se pued
 <a name="etiquetas"></a>
 ### Etiquetas HTML
 
+- *<!DOCTYPE html>:* especifica que el documento es HTML 5.
 
+- *html:* representa la raíz del documento HTML, se indica el lenguaje del documento.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/html.png?raw=true" width="300" height="180"></p>
+
+- *head:* representa a todos los metadatos incluyendo enlaces, script, hojas de estilo. 
+- *body:* representa el contenido principal del documento, es decir, que muestra al usuario.
+- *meta:* define los metadatos que pueden ser definidos.
+- *title:* define el título del documento.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/estructura.png?raw=true" width="300" height="180"></p>
+
+- *h1, h2, h3, h4, h5, h6:* Son elementos de cabecera, donde **h1** es el mayor, mientras que **h6** es el menor. 
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/hs.png?raw=true" width="300" height="150"></p>
+
+- *img:* representa a una imagen, en donde se colocan atributos como: src, alt, height, width.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/img.png?raw=true" width="400" height="200"></p>
+
+- *href:* esta etiqueta es usada para colocar enlaces con documentos o imágenes.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/href.png?raw=true" width="350" height="100"></p>
+
+- *p:* define una parte que se mostrará como un párrafo.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/parrafo.png?raw=true" width="400" height="180"></p>
+
+- *ul:* define una lista no ordenada
+- *li:* define un artículo de la lista enumerada.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/ordenadasNo.png?raw=true" width="250" height="120"></p>
+
+- *ol:* define una lista ordenada.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/ordenadasEnumeradas.png?raw=true" width="250" height="120"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
