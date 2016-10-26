@@ -187,3 +187,13 @@ A continuación se procede a iniciar el servidor mediante el comando: **http-ser
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true" width="300" height="200"></p>
+
+<a href="#cabecera">A la cabecera</a>
+
+<a name="concRecom"></a>
+## Conclusiones y Recomendaciones
+
+- Entedi el informe
+- jijij
+
+<a href="#cabecera">A la cabecera</a>
