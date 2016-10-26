@@ -55,7 +55,7 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="#defxml"></a>
+<a name="defxml"></a>
 ### Definición de XML
 <p align="center">
 <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
@@ -120,7 +120,7 @@ Una página web es un documento electrónico que forma parte de la www, el cual 
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a href="#status"></a>
+<a href="status"></a>
 ### Status Code
 <p align="center">
 <img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="300" height="200"></p>
@@ -147,14 +147,14 @@ A continuación se presentan algunos ejemplos:
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
-<a name="#postman"></a>
+<a name="postman"></a>
 ### Uso de la herramienta Postman
 
 
-<a name="#inspector"></a>
+<a name="inspector"></a>
 ### Cambio de color mediante Inspector
 
-<a name="#etiquetas"></a>
+<a name="etiquetas"></a>
 ### Etiquetas HTML
 
 <a name="servidor"></a>
@@ -182,7 +182,6 @@ A continuación se procede a iniciar el servidor, mediante el siguiente comando:
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true">
 </p>
-<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="concRecom"></a>
