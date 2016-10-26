@@ -56,15 +56,6 @@ XML o Extensible Markup Language fue diseñado para almacenar y transportar dato
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="xml"></a>
-### Definición de XML
-<p align="center">
-<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
-<br>
-HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
-<br>
-<br>
-<a href="#cabecera">A la cabecera</a>
 
 <a name="www"></a>
 ### WWW: "World Wide Web"
