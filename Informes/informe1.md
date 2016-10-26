@@ -28,6 +28,7 @@
     * <a href="#postman">Uso de la herramienta Postman</a>
     * <a href="#inspector">Uso de Inspector</a>
     * <a href="#etiquetas">Etiquetas HTML</a>
+    * <a href="#xmlprac">Ejemplo de XML</a>
     * <a href="#servidor">Instalación del Servidor Local HTTP</a>
 - <a href="#concRecom">Conclusiones y Recomendaciones</a>
 
@@ -156,18 +157,18 @@ A continuación se presentan algunos ejemplos:
 ### Uso de la herramienta Postman
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inicio_postman.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
 
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/metodo_get.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/metodo_get.png?raw=true" width="500" height="200"></p>
 
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/google.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/google.png?raw=true" width="450" height="150"></p>
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/resultados_get.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/resultados_get.png?raw=true" width="500" height="350"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -175,22 +176,33 @@ A continuación se presentan algunos ejemplos:
 ### Uso de Inspector
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inspeccionar_google.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inspeccionar_google.png?raw=true" width="400" height="150"></p>
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/elementos_google.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/elementos_google.png?raw=true" width="500" height="300"></p>
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/red_google.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/red_google.png?raw=true" width="500" height="250"></p>
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/cambio_color.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/cambio_color.png?raw=true" width="500" height="250"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="etiquetas"></a>
 ### Etiquetas HTML
 
+
+<a href="#cabecera">A la cabecera</a>
+
+<a name="xmlprac"></a>
+### Ejemplo de XML
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/etiquetas_xml.png?raw=true" width="300" height="200"></p>
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/atributos_xml.png?raw=true" width="300" height="200"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
