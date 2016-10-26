@@ -53,6 +53,18 @@
 <br>
 HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
 <br>
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="defxml"></a>
+### Definición de XML
+<p align="center">
+    <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300">
+</p>
+<br>
+"XML o Extensible Markup Language" fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
+<br>
+<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="www"></a>
@@ -64,11 +76,11 @@ WWW o World Wide Web es una red global que permite intercambiar y distribuir doc
 <br>
 La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
 <br>
+<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="w3c"></a>
 ### w3c: "World Wide Web Consortium"
-
 <p align="center">
 <img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="300" height="200"></p>
 <br>
@@ -99,6 +111,7 @@ Dentro de los navegadores más populares se tienen los siguientes:
 <br>
 (Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
 <br>
+<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="pagweb"></a>
@@ -107,6 +120,7 @@ Dentro de los navegadores más populares se tienen los siguientes:
 <img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="300" height="200">
 <br></p>
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
