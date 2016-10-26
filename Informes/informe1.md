@@ -49,21 +49,30 @@
 <a name="defHtml"></a>
 ### Definición de HTML
 <p align="center">
-<img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="300" height="300"></p>
-<br>
-XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
+<img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="150" height="150"></p>
+
+HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
 <br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
+<a name="xml"></a>
+### Definición de XML
+<p align="center">
+<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="100" height="100"></p>
+
+XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
 
 <a name="www"></a>
 ### WWW: "World Wide Web"
 <p align="center">
-<img src="https://qph.ec.quoracdn.net/main-qimg-eee8f6448b5c6670e7be58bcb698012d?convert_to_webp=true" width="300" height="300"></p>
-<br>
+<img src="https://qph.ec.quoracdn.net/main-qimg-eee8f6448b5c6670e7be58bcb698012d?convert_to_webp=true" width="150" height="150"></p>
+
 WWW o World Wide Web es una red global que permite intercambiar y distribuir documentos de hipertexto o hipermedios interconectados y accesibles vía Internet, mediante un navegador web. Los usuarios puedes visualizar diversos sitios web a través de hipervínculos mediante un navegador. 
-<br>
+
 La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
 <br>
 <br>
@@ -72,10 +81,10 @@ La www es un estándar mundial que es usado por la mayoría de sitios web, los c
 <a name="w3c"></a>
 ### w3c: "World Wide Web Consortium"
 <p align="center">
-<img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="300" height="200"></p>
-<br>
+<img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="200" height="150"></p>
+
 El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España](http://www.w3c.es/Consorcio/)).
-<br>
+
 La W3C se centra en cutro objetivos, los cuales son:
 - Accesibilidad
 - Seguridad
@@ -89,9 +98,9 @@ La W3C se centra en cutro objetivos, los cuales son:
 ### Definición de Navegador
 <p align="center">
 <img src="https://bloggea2post.com/wp-content/uploads/2014/05/Yahoo-Actualicen-Su-Navegador-o-Se-les-Cambiar%C3%A1-a-un-Mail-B%C3%A1sico.jpg" width="300" height="200"></p>
-<br>
+
 Un navegador es un programa informático que permite visualizar la información contenida en una página web así como todos sus componentes, la cual se encuentra alojada en el Internet o en un servidor local; así como también permite navegar por una red informática.
-<br>
+
 Dentro de los navegadores más populares se tienen los siguientes:
 - Google Chrome
 - Mozilla Firefox
@@ -102,14 +111,43 @@ Dentro de los navegadores más populares se tienen los siguientes:
 (Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
 <br>
 <br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="pagweb"></a>
+
 ### Definición de Página Web
 <p align="center">
-<img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="300" height="200">
-<br></p>
+<img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="200" height="150">
+</p>
+
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="status"></a>
+### Status Code
+<p align="center">
+<img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="150" height="150"></p>
+
+Los códigos de estado son respuestas dadas por el servidor que realiza la petición, el cual está formado de tres dígitos, de acuerdo a esto se tiene los siguientes grupos:
+- 1xx: Respuesta Informativa
+- 2xx: Peticiones correctas
+- 3xx: Redirecciones
+- 4xx: Errores del cliente
+- 5xx: Errores del servidor
+
+A continuación se presentan algunos ejemplos:
+- 100: Solo una parte de la petición ha sido recibida por el servidor
+- 200: La petición es correcta
+- 202: La petición es aceptada para procesamiento
+- 302: La página solicitada ha sido movida a una nueva URL.
+- 403: El acceso a la página solicitada está prohibido.
+- 404: El servidor no puede encontrar la página solicitada.
+- 500: La petición no fue completada. El servidor encontró una condición inesperada.
+
+(Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm)).
 <br>
 <br>
 <a href="#cabecera">A la cabecera</a>
@@ -149,7 +187,7 @@ En Windows para poder instalar un servidor de manera local, se procede a ejecuta
 **npm install http-server**
 <br>
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_local.png?raw=true">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_local.png?raw=true" width="300" height="200">
 </p>
 <br>
 
@@ -158,7 +196,7 @@ Mientras que para instalarlo de manera global, se hace uso del siguiente comando
 **npm install http-server -g**
 <br>
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true" width="300" height="350">
 </p>
 <br>
 
@@ -167,7 +205,7 @@ A continuación se procede a iniciar el servidor, mediante el siguiente comando:
 **http-server**
 <br>
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true" width="300" height="200">
 </p>
 
 <br>
