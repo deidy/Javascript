@@ -122,3 +122,29 @@ Dentro de los navegadores más populares se tienen los siguientes:
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="status"></a>
+### Status Code
+
+<p align="center">
+<img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="200" height="200"></p>
+
+Los códigos de estado son respuestas dadas por el servidor que realiza la petición, el cual está formado de tres dígitos, de acuerdo a esto se tiene los siguientes grupos:
+- 1xx: Respuesta Informativa
+- 2xx: Peticiones correctas
+- 3xx: Redirecciones
+- 4xx: Errores del cliente
+- 5xx: Errores del servidor
+
+A continuación se presentan algunos ejemplos:
+- 100: Solo una parte de la petición ha sido recibida por el servidor
+- 200: La petición es correcta
+- 202: La petición es aceptada para procesamiento
+- 302: La página solicitada ha sido movida a una nueva URL.
+- 403: El acceso a la página solicitada está prohibido.
+- 404: El servidor no puede encontrar la página solicitada.
+- 500: La petición no fue completada. El servidor encontró una condición inesperada. 
+
+(Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm)).
+
+<a href="#cabecera">A la cabecera</a>
