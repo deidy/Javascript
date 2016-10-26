@@ -181,4 +181,9 @@ En Windows para poder instalar un servidor de manera local, se procede a ejecuta
 Mientras que para instalarlo de manera global, se hace uso del siguiente comando: **npm install http-server -g**
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true" width="350" height="400"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true" width="300" height="350"></p>
+
+A continuación se procede a iniciar el servidor mediante el comando: **http-server**
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true" width="300" height="200"></p>
