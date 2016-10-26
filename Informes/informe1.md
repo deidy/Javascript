@@ -18,7 +18,7 @@
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marcoteorico">Marco Teórico</a>
     * <a href="#defHtml">Definición de HTML</a>
-    * <a href="#defxml">Definición de XML</a>
+    * <a href="#xml">Definición de XML</a>
     * <a href="#www">WWW: "World Wide Web"</a>
     * <a href="#w3c">w3c: "World Wide Web Consortium"</a>
     * <a href="#navegador">Definición de Navegador</a>
@@ -56,7 +56,7 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 <br>
 <a href="#cabecera">A la cabecera</a>
 
-<a name="defxml"></a>
+<a name="xml"></a>
 ### Definición de XML
 <p align="center">
     <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300">
