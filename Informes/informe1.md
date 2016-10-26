@@ -112,3 +112,14 @@ Dentro de los navegadores más populares se tienen los siguientes:
 (Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="pagweb"></a>
+### Definición de Página Web
+
+<p align="center">
+<img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="200" height="150">
+</p>
+
+Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+
+<a href="#cabecera">A la cabecera</a>
