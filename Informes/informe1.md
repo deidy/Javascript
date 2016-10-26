@@ -77,3 +77,19 @@ WWW o World Wide Web es una red global que permite intercambiar y distribuir doc
 La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="w3c"></a>
+### w3c: "World Wide Web Consortium"
+
+<p align="center">
+<img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="200" height="150"></p>
+
+El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España](http://www.w3c.es/Consorcio/)).
+
+La W3C se centra en cutro objetivos, los cuales son:
+- Accesibilidad
+- Seguridad
+- Base de conocimiento
+- Web sobre todo
+
+<a href="#cabecera">A la cabecera</a>
