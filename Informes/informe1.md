@@ -156,16 +156,22 @@ A continuación se presentan algunos ejemplos:
 <a name="postman"></a>
 ### Uso de la herramienta Postman
 
+La herramienta **Postman**, puede ser descargada como una extensión de Google Chrome, el cual permite realizar peticiones a una página especificada, mostrando los valores que son devueltos. A continuación se muestra la pantalla inicial de Postman.
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
 
+Postman permite escoger el método que se quiere usar para realizar la petición, dentro de los cuales se encuentran los siguientes: *get, post, put, entre otros*; pero para este caso el método a ser elegido será **get**.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/metodo_get.png?raw=true" width="500" height="200"></p>
 
+A continuación se escoge una página a la cual se le quiere realizar las peticiones, en este caso se escogió a la página de **google.com.ec**; tras lo cual se da click sobre el botón **Send**.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/google.png?raw=true" width="450" height="150"></p>
+
+Tras haber enviado las peticiones, Postman mostrará los resultados obtenidos, es decir, que muestra la información necesaria para dicho método.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/resultados_get.png?raw=true" width="500" height="350"></p>
@@ -174,6 +180,8 @@ A continuación se presentan algunos ejemplos:
 
 <a name="inspector"></a>
 ### Uso de Inspector
+
+Inspector es una herramienta que permite
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inspeccionar_google.png?raw=true" width="400" height="150"></p>
@@ -199,10 +207,10 @@ A continuación se presentan algunos ejemplos:
 ### Ejemplo de XML
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/etiquetas_xml.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/etiquetas_xml.png?raw=true" width="400" height="180"></p>
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/atributos_xml.png?raw=true" width="300" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/atributos_xml.png?raw=true" width="400" height="180"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
