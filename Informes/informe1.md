@@ -135,6 +135,7 @@ Los códigos de estado son respuestas dadas por el servidor que realiza la petic
 - 4xx: Errores del cliente
 - 5xx: Errores del servidor
 <br>
+<br>
 A continuación se presentan algunos ejemplos:
 - 100: Solo una parte de la petición ha sido recibida por el servidor
 - 200: La petición es correcta
@@ -151,36 +152,67 @@ A continuación se presentan algunos ejemplos:
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
-<a name="#postman"></a>
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="postman"></a>
 ### Uso de la herramienta Postman
 
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
 
-<a name="#inspector"></a>
+<a name="inspector"></a>
 ### Cambio de color mediante Inspector
 
-<a name="#etiquetas"></a>
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="etiquetas"></a>
 ### Etiquetas HTML
+
+<br>
+<br>
+<a href="#cabecera">A la cabecera</a>
 
 <a name="servidor"></a>
 ### Instalación del Servidor Local HTTP
 En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
 <br>
 **npm install http-server**
+<br>
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_local.png?raw=true">
+</p>
+<br>
 
 Mientras que para instalarlo de manera global, se hace uso del siguiente comando:
 <br>
 **npm install http-server -g**
+<br>
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true">
+</p>
+<br>
 
 A continuación se procede a iniciar el servidor, mediante el siguiente comando:
 <br>
 **http-server**
+<br>
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true">
+</p>
 
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-
+- 
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
