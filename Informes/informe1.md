@@ -162,14 +162,17 @@ A continuación se presentan algunos ejemplos:
 En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
 <br>
 **npm install http-server**
+<br>
 
 Mientras que para instalarlo de manera global, se hace uso del siguiente comando:
 <br>
 **npm install http-server -g**
+<br>
 
 A continuación se procede a iniciar el servidor, mediante el siguiente comando:
 <br>
 **http-server**
+<br>
 
 <br>
 <a href="#cabecera">A la cabecera</a>
