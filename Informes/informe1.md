@@ -18,10 +18,12 @@
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marcoteorico">Marco Teórico</a>
     * <a href="#defHtml">Definición de HTML</a>
+    * <a href="#defxml">Definición de XML</a>
     * <a href="#www">WWW: "World Wide Web"</a>
     * <a href="#w3c">w3c: "World Wide Web Consortium"</a>
     * <a href="#navegador">Definición de Navegador</a>
     * <a href="#pagweb">Definición de Página Web</a>
+    * <a href="#status">Status Code</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
     * <a href="#postman">Uso de la herramienta Postman</a>
     * <a href="#inspector">Cambio de color mediante Inspector</a>
@@ -50,6 +52,16 @@
 <img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="300" height="300"></p>
 <br>
 HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a name="#defxml"></a>
+### Definición de XML
+<p align="center">
+<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
+<br>
+XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información.
+(Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
 <br>
 <a href="#cabecera">A la cabecera</a>
 
@@ -105,6 +117,30 @@ Dentro de los navegadores más populares se tienen los siguientes:
 <img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="300" height="200">
 <br></p>
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+<br>
+<a href="#cabecera">A la cabecera</a>
+
+<a href="#status"></a>
+### Status Code
+<p align="center">
+<img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="300" height="200"></p>
+<br>
+Los códigos de estado son respuestas dadas por el servidor que realiza la petición, el cual está formado de tres dígitos, de acuerdo a esto se tiene los siguientes grupos:
+- 1xx: Respuesta Informativa
+- 2xx: Peticiones correctas
+- 3xx: Redirecciones
+- 4xx: Errores del cliente
+- 5xx: Errores del servidor
+<br>
+A continuación se presentan algunos ejemplos:
+- 100: Solo una parte de la petición ha sido recibida por el servidor
+- 200: La petición es correcta
+- 202: La petición es aceptada para procesamiento
+- 302: La página solicitada ha sido movida a una nueva URL.
+- 403: El acceso a la página solicitada está prohibido.
+- 404: El servidor no puede encontrar la página solicitada.
+- 500: La petición no fue completada. El servidor encontró una condición inesperada.
+(Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm))
 <br>
 <a href="#cabecera">A la cabecera</a>
 
