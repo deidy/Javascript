@@ -53,16 +53,18 @@
 <br>
 HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web] (http://www.desarrolloweb.com/articulos/que-es-html.html)).
 <br>
+<br>
 <a href="#cabecera">A la cabecera</a>
 <br>
 
 <a name="defxml"></a>
-### Definición de XML
+### Definición de HTML
 <p align="center">
 <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
 <br>
 XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información.
 (Fuente: [w3c] (http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
@@ -74,7 +76,8 @@ XML o Extensible Markup Language fue diseñado para almacenar y transportar dato
 <br>
 WWW o World Wide Web es una red global que permite intercambiar y distribuir documentos de hipertexto o hipermedios interconectados y accesibles vía Internet, mediante un navegador web. Los usuarios puedes visualizar diversos sitios web a través de hipervínculos mediante un navegador. 
 <br>
-La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
+La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC] (http://www.definicionabc.com/tecnologia/www.php)).
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
@@ -85,7 +88,7 @@ La www es un estándar mundial que es usado por la mayoría de sitios web, los c
 <p align="center">
 <img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="300" height="200"></p>
 <br>
-El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España](http://www.w3c.es/Consorcio/)).
+El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España] (http://www.w3c.es/Consorcio/)).
 <br>
 La W3C se centra en cutro objetivos, los cuales son:
 - Accesibilidad
@@ -111,7 +114,8 @@ Dentro de los navegadores más populares se tienen los siguientes:
 - Internet Explorer
 - Opera
 <br>
-(Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
+(Fuente: [C y L digital] (http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
@@ -121,7 +125,8 @@ Dentro de los navegadores más populares se tienen los siguientes:
 <p align="center">
 <img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="300" height="200">
 <br></p>
-Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos] (http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
@@ -146,9 +151,11 @@ A continuación se presentan algunos ejemplos:
 - 403: El acceso a la página solicitada está prohibido.
 - 404: El servidor no puede encontrar la página solicitada.
 - 500: La petición no fue completada. El servidor encontró una condición inesperada.
-(Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm))
+(Fuente: [Tutorialespoint] (https://www.tutorialspoint.com/http/http_status_codes.htm))
+<br>
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 <br>
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
