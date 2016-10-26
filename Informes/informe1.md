@@ -148,3 +148,24 @@ A continuación se presentan algunos ejemplos:
 (Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm)).
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="desarrollo"></a>
+## Desarrollo de la Práctica
+
+<a name="postman"></a>
+### Uso de la herramienta Postman
+
+
+<a href="#cabecera">A la cabecera</a>
+
+<a name="inspector"></a>
+### Cambio de color mediante Inspector
+
+
+<a href="#cabecera">A la cabecera</a>
+
+<a name="etiquetas"></a>
+### Etiquetas HTML
+
+
+<a href="#cabecera">A la cabecera</a>
