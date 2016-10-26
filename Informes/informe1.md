@@ -181,16 +181,25 @@ Tras haber enviado las peticiones, Postman mostrará los resultados obtenidos, e
 <a name="inspector"></a>
 ### Uso de Inspector
 
-Inspector es una herramienta que permite
+Inspector o Inspeccionar es una opción que presentan los navegadores, con la finalidad de poder ver cada uno de los elementos que contiene una determinada página web. Para poder ver dichos elementos, se debe hacer clic derecho sobre la página ingresada y seleccionar la opción **Inspeccionar**.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/inspeccionar_google.png?raw=true" width="400" height="150"></p>
 
+En la siguiente imagen se puede ver todos los elementos que han sido encontrados en la página web, se puede ver incluso su estructura.
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/elementos_google.png?raw=true" width="500" height="300"></p>
 
+Se puede incluso ir a la opción **Network**, en el cual se puede ver información general de la página, como la siguiente:
+- *Request URL:* el cual indica a que URL se está realizando la petición.
+- *Request Method:* indica el método usado para realizar la petición, en este caso será **GET**.
+- *Status Code:* indica un código de estado, en este caso es el 200, el cual indica que está correcto.
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/red_google.png?raw=true" width="500" height="250"></p>
+
+Dentro de los elementos de la página web, se encuentran los estilos que se pueden aplicar. Es aquí donde se puede agregar más estilos, como el cambio de color del fondo. Los cambios que son realizados sobre Inspeccionar, no son guardados en el documento original.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/cambio_color.png?raw=true" width="500" height="250"></p>
@@ -201,13 +210,18 @@ Inspector es una herramienta que permite
 ### Etiquetas HTML
 
 
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="xmlprac"></a>
 ### Ejemplo de XML
 
+XML al ser un lenguaje de marcado, hace uso de etiquetas, las cuales son representadas de la siguiente manera (Ver figura). Las etiquetas que han sido abiertas, siempre deben ser cerradas.
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/etiquetas_xml.png?raw=true" width="400" height="180"></p>
+
+XML no solo cuenta con etiquetas, sino que permite el ingreso de atributos dentro de cada etiqueta, como se muestra a continuación.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/atributos_xml.png?raw=true" width="400" height="180"></p>
