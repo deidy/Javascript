@@ -295,7 +295,8 @@ A continuación se procede a iniciar el servidor mediante el comando: **http-ser
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- Entedi el informe
-- jijij
+- La realización de la práctica permitió familiarizarse con las diferentes etiquetas que HTML usa, tanto en su escritura como para qué se usan, con la finalidad de que al momento de escribir un documento HTML, sea mucho más rápido y fácil.   
+- Existen varios tipos de navegadores, los cuales permiten buscar todo tipo de información, la que a su vez puede ser transmitida. Todo navegador tiene páginas web, las cuales están desarrolladas siguiendo el lenguaje de marcado o HTML.
+- Es importante que cuando se use el lenguaje de marcado, al momento de abrir una etiqueta, siempre se la debe cerrar. Además de conocer que cada etiqueta puede contener varios atributos, los cuales permiten modificarla.
 
 <a href="#cabecera">A la cabecera</a>
