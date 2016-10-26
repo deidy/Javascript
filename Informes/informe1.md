@@ -57,7 +57,8 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 <a href="#cabecera">A la cabecera</a>
 <br>
 
-<a name="defxml"></a>
+
+<a name="#defxml"></a>
 ### Definición de HTML
 <p align="center">
 <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
@@ -68,6 +69,7 @@ XML o Extensible Markup Language fue diseñado para almacenar y transportar dato
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
+
 
 <a name="www"></a>
 ### WWW: "World Wide Web"
@@ -82,6 +84,7 @@ La www es un estándar mundial que es usado por la mayoría de sitios web, los c
 <a href="#cabecera">A la cabecera</a>
 <br>
 
+
 <a name="w3c"></a>
 ### w3c: "World Wide Web Consortium"
 
@@ -91,14 +94,19 @@ La www es un estándar mundial que es usado por la mayoría de sitios web, los c
 El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España] (http://www.w3c.es/Consorcio/)).
 <br>
 La W3C se centra en cutro objetivos, los cuales son:
+<br>
 - Accesibilidad
+<br>
 - Seguridad
+<br>
 - Base de conocimiento
+<br>
 - Web sobre todo
 <br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
+
 
 <a name="navegador"></a>
 ### Definición de Navegador
@@ -108,10 +116,15 @@ La W3C se centra en cutro objetivos, los cuales son:
 Un navegador es un programa informático que permite visualizar la información contenida en una página web así como todos sus componentes, la cual se encuentra alojada en el Internet o en un servidor local; así como también permite navegar por una red informática.
 <br>
 Dentro de los navegadores más populares se tienen los siguientes:
+<br>
 - Google Chrome
+<br>
 - Mozilla Firefox
+<br>
 - Apple Safari
+<br>
 - Internet Explorer
+<br>
 - Opera
 <br>
 (Fuente: [C y L digital] (http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
@@ -119,6 +132,7 @@ Dentro de los navegadores más populares se tienen los siguientes:
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
+
 
 <a name="pagweb"></a>
 ### Definición de Página Web
@@ -131,46 +145,62 @@ Una página web es un documento electrónico que forma parte de la www, el cual 
 <a href="#cabecera">A la cabecera</a>
 <br>
 
+
 <a href="status"></a>
 ### Status Code
 <p align="center">
 <img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="300" height="200"></p>
 <br>
 Los códigos de estado son respuestas dadas por el servidor que realiza la petición, el cual está formado de tres dígitos, de acuerdo a esto se tiene los siguientes grupos:
+<br>
 - 1xx: Respuesta Informativa
+<br>
 - 2xx: Peticiones correctas
+<br>
 - 3xx: Redirecciones
+<br>
 - 4xx: Errores del cliente
+<br>
 - 5xx: Errores del servidor
 <br>
 A continuación se presentan algunos ejemplos:
+<br>
 - 100: Solo una parte de la petición ha sido recibida por el servidor
+<br>
 - 200: La petición es correcta
+<br>
 - 202: La petición es aceptada para procesamiento
+<br>
 - 302: La página solicitada ha sido movida a una nueva URL.
+<br>
 - 403: El acceso a la página solicitada está prohibido.
+<br>
 - 404: El servidor no puede encontrar la página solicitada.
+<br>
 - 500: La petición no fue completada. El servidor encontró una condición inesperada.
+<br>
 (Fuente: [Tutorialespoint] (https://www.tutorialspoint.com/http/http_status_codes.htm))
 <br>
 <br>
 <a href="#cabecera">A la cabecera</a>
 <br>
 <br>
-<a name="desarrollo"></a>
+
+
+<a name="#desarrollo"></a>
 ## Desarrollo de la Práctica
 
-<a name="postman"></a>
+<a name="#postman"></a>
 ### Uso de la herramienta Postman
 
 
-<a name="inspector"></a>
+<a name="#inspector"></a>
 ### Cambio de color mediante Inspector
 
-<a name="etiquetas"></a>
+<a name="#etiquetas"></a>
 ### Etiquetas HTML
 
-<a name="servidor"></a>
+<a name="#servidor"></a>
 ### Instalación del Servidor Local HTTP
 En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
 <br>
