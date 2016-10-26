@@ -65,3 +65,15 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="www"></a>
+### WWW: "World Wide Web"
+
+<p align="center">
+<img src="https://qph.ec.quoracdn.net/main-qimg-eee8f6448b5c6670e7be58bcb698012d?convert_to_webp=true" width="150" height="150"></p>
+
+WWW o World Wide Web es una red global que permite intercambiar y distribuir documentos de hipertexto o hipermedios interconectados y accesibles vía Internet, mediante un navegador web. Los usuarios puedes visualizar diversos sitios web a través de hipervínculos mediante un navegador. 
+
+La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
+
+<a href="#cabecera">A la cabecera</a>
