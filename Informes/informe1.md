@@ -52,8 +52,7 @@
 <img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="150" height="150"></p>
 
 HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="xml"></a>
@@ -62,8 +61,7 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="100" height="100"></p>
 
 XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="www"></a>
@@ -74,8 +72,7 @@ XML o Extensible Markup Language fue diseñado para almacenar y transportar dato
 WWW o World Wide Web es una red global que permite intercambiar y distribuir documentos de hipertexto o hipermedios interconectados y accesibles vía Internet, mediante un navegador web. Los usuarios puedes visualizar diversos sitios web a través de hipervínculos mediante un navegador. 
 
 La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="w3c"></a>
@@ -90,8 +87,7 @@ La W3C se centra en cutro objetivos, los cuales son:
 - Seguridad
 - Base de conocimiento
 - Web sobre todo
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="navegador"></a>
@@ -107,23 +103,19 @@ Dentro de los navegadores más populares se tienen los siguientes:
 - Apple Safari
 - Internet Explorer
 - Opera
-<br>
+
 (Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
-<br>
-<br>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="pagweb"></a>
-
 ### Definición de Página Web
 <p align="center">
 <img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="200" height="150">
 </p>
 
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="status"></a>
@@ -148,74 +140,64 @@ A continuación se presentan algunos ejemplos:
 - 500: La petición no fue completada. El servidor encontró una condición inesperada.
 
 (Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm)).
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
-<br>
-<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="postman"></a>
 ### Uso de la herramienta Postman
 
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="inspector"></a>
 ### Cambio de color mediante Inspector
 
-<br>
-<br>
+
 <a href="#cabecera">A la cabecera</a>
 
 <a name="etiquetas"></a>
 ### Etiquetas HTML
 
-<br>
-<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="servidor"></a>
 ### Instalación del Servidor Local HTTP
 En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando:
-<br>
+
 **npm install http-server**
-<br>
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_local.png?raw=true" width="300" height="200">
 </p>
-<br>
 
 Mientras que para instalarlo de manera global, se hace uso del siguiente comando:
-<br>
+
 **npm install http-server -g**
-<br>
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/install_global.png?raw=true" width="300" height="350">
 </p>
-<br>
+
 
 A continuación se procede a iniciar el servidor, mediante el siguiente comando:
-<br>
+
 **http-server**
-<br>
+
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/imagenes/start_server.png?raw=true" width="300" height="200">
 </p>
 
-<br>
-<br>
 <a href="#cabecera">A la cabecera</a>
 
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- 
-<br>
-<br>
+- asd
+- ads
+
 <a href="#cabecera">A la cabecera</a>
