@@ -93,3 +93,22 @@ La W3C se centra en cutro objetivos, los cuales son:
 - Web sobre todo
 
 <a href="#cabecera">A la cabecera</a>
+
+<a name="navegador"></a>
+### Definición de Navegador
+
+<p align="center">
+<img src="https://bloggea2post.com/wp-content/uploads/2014/05/Yahoo-Actualicen-Su-Navegador-o-Se-les-Cambiar%C3%A1-a-un-Mail-B%C3%A1sico.jpg" width="300" height="200"></p>
+
+Un navegador es un programa informático que permite visualizar la información contenida en una página web así como todos sus componentes, la cual se encuentra alojada en el Internet o en un servidor local; así como también permite navegar por una red informática.
+
+Dentro de los navegadores más populares se tienen los siguientes:
+- Google Chrome
+- Mozilla Firefox
+- Apple Safari
+- Internet Explorer
+- Opera
+
+(Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
+
+<a href="#cabecera">A la cabecera</a>
