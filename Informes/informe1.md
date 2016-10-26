@@ -51,9 +51,10 @@
 <p align="center">
 <img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="300" height="300"></p>
 <br>
-HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
+HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web] (http://www.desarrolloweb.com/articulos/que-es-html.html)).
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a name="defxml"></a>
 ### Definición de XML
@@ -61,9 +62,10 @@ HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un le
 <img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="300" height="300"></p>
 <br>
 XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información.
-(Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
+(Fuente: [w3c] (http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a name="www"></a>
 ### WWW: "World Wide Web"
@@ -75,6 +77,7 @@ WWW o World Wide Web es una red global que permite intercambiar y distribuir doc
 La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a name="w3c"></a>
 ### w3c: "World Wide Web Consortium"
@@ -92,6 +95,7 @@ La W3C se centra en cutro objetivos, los cuales son:
 <br>
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a name="navegador"></a>
 ### Definición de Navegador
@@ -110,6 +114,7 @@ Dentro de los navegadores más populares se tienen los siguientes:
 (Fuente: [C y L digital](http://www.cyldigital.es/articulo/que-es-un-navegador-de-internet))
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a name="pagweb"></a>
 ### Definición de Página Web
@@ -119,6 +124,7 @@ Dentro de los navegadores más populares se tienen los siguientes:
 Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
 <br>
 <a href="#cabecera">A la cabecera</a>
+<br>
 
 <a href="status"></a>
 ### Status Code
@@ -143,7 +149,7 @@ A continuación se presentan algunos ejemplos:
 (Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm))
 <br>
 <a href="#cabecera">A la cabecera</a>
-
+<br>
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
