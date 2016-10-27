@@ -1,14 +1,14 @@
-# Introducción a la Web
+# CSS (Cascading Style Sheets)
 
 ### Materia: `Tecnologías Web con JavaScript`
 <p align="center">
 <img src="http://img.microsiervos.com/images2016/javascript_logo.png" width="300" height="200">
 </p>
-### Tema: `Introducción a la Web` 
-### Fecha: `2016-10-25`
+### Tema: `CSS (Cascading Style Sheets)` 
+### Fecha: `2016-10-29`
 ### Estudiante: `Deidamia Patricia Quishpe Cumba`
 ### Profesor: `Tania Calle - Adrian Eguez`
-### Número de informe: `1`
+### Número de informe: `2`
 
 <a name="cabecera"></a>
 
@@ -17,75 +17,65 @@
 - <a href="#tema">Tema</a>
 - <a href="#objetivos">Objetivos</a>
 - <a href="#marcoteorico">Marco Teórico</a>
-    * <a href="#defHtml">Definición de HTML</a>
-    * <a href="#xml">Definición de XML</a>
-    * <a href="#www">WWW: "World Wide Web"</a>
-    * <a href="#w3c">w3c: "World Wide Web Consortium"</a>
-    * <a href="#navegador">Definición de Navegador</a>
-    * <a href="#pagweb">Definición de Página Web</a>
-    * <a href="#status">Status Code</a>
+    * <a href="#defcss">Definición de CSS</a>
+    * <a href="#estcss">Estructura de CSS</a>
+    * <a href="#vent">Ventajas</a>
+    * <a href="#libInfr">Librería vs Infraestructura</a>
 - <a href="#desarrollo">Desarrollo de la Práctica</a>
-    * <a href="#postman">Uso de la herramienta Postman</a>
-    * <a href="#inspector">Uso de Inspector</a>
-    * <a href="#etiquetas">Etiquetas HTML</a>
-    * <a href="#xmlprac">Ejemplo de XML</a>
-    * <a href="#servidor">Instalación del Servidor Local HTTP</a>
+    * <a href="#uso">Uso de CSS</a>
+    * <a href="#tipos">Formas de aplicar CSS</a>
+    * <a href="#grid">Uso de Grid con Bootstrap</a>
 - <a href="#concRecom">Conclusiones y Recomendaciones</a>
 
 <a name="tema"></a>
 ## Tema
 
-`Introducción a la Web`
+`CSS (Cascading Style Sheets)`
 
 <a name="objetivos"></a>
 ## Objetivos
 
-- Conocer la definición de términos usados en la Web.
-- Aprender el lenguaje de marcado o HTML. 
-- Conocer herramientas de desarrolladores web como: postman, inspector web.
+- Aprender el uso de CSS. 
+- Diferenciar Librería de Infraestructura.
+- Conocer las diferentes formas de aplicar estilos a etiquetas HTML.
 
 <a name="marcoteorico"></a>
 ## Marco Teórico
 
-<a name="defHtml"></a>
-### Definición de HTML
+<a name="defcss"></a>
+### Definición de CSS
 
 <p align="center">
-<img src="https://lh3.googleusercontent.com/zwwddqxgFlP14DlucvBV52RUMA-cV3vRvmjf-iWqxuVhYVmB-l8XN9NDirb0687DSw=w300" width="150" height="150"></p>
+<img src="http://www.ciudadano2cero.com/wp-content/uploads/2014/09/aprender-css-basico-desde-cero.jpg?x46159" width="250" height="150"></p>
 
-HTML o HyperText Markup Language (Lenguaje de Marcación de Hipertexto) es un lenguaje de programación que se utiliza para desarrollar páginas web, en donde se establece la estructura y contenido de un sitio web. HTML está compuesto por un conjunto de etiquetas que permiten definir el texto y otros elementos que componen una página web, así como imágenes, videos, entre otras cosas. (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
+HTML . (Fuente: [Desarrollo Web](http://www.desarrolloweb.com/articulos/que-es-html.html)).
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="xml"></a>
-### Definición de XML
+<a name="estcss"></a>
+### Estructura de CSS
 
 <p align="center">
-<img src="http://2.bp.blogspot.com/-i_fLH3lLQno/VRfikpf1fzI/AAAAAAAAE6w/UiXF1whI9Ws/s1600/xml-file.png" width="100" height="100"></p>
+<img src="https://lenguajecss.com/p/css/introduccion/sintaxis-visual.png" width="200" height="100"></p>
 
-XML o Extensible Markup Language fue diseñado para almacenar y transportar datos, el cual es un texto simple pero muy flexible. XML es un lenguaje muy similar a HTML, cuya funcionalidad es la de describir datos y no mostrarlos como lo hace HTML. XML sirve para estructurar, almacenar e intercambiar información. (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
+XML . (Fuente: [w3c](http://www.w3c.es/Divulgacion/GuiasBreves/TecnologiasXML)).
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="www"></a>
-### WWW: "World Wide Web"
+<a name="vent"></a>
+### Ventajas
 
-<p align="center">
-<img src="https://qph.ec.quoracdn.net/main-qimg-eee8f6448b5c6670e7be58bcb698012d?convert_to_webp=true" width="150" height="150"></p>
-
-WWW o World Wide Web es una red global que permite intercambiar y distribuir documentos de hipertexto o hipermedios interconectados y accesibles vía Internet, mediante un navegador web. Los usuarios puedes visualizar diversos sitios web a través de hipervínculos mediante un navegador. 
-
-La www es un estándar mundial que es usado por la mayoría de sitios web, los cuales la incluyen como parte de su dirección, el que es preciso para ingresar y navegar en la web. (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
+WWW . (Fuente: [Definición ABC](http://www.definicionabc.com/tecnologia/www.php)).
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="w3c"></a>
-### w3c: "World Wide Web Consortium"
+<a name="libInfr"></a>
+### Librería vs Infraestructura
 
 <p align="center">
 <img src="http://www.dataversity.net/wp-content/uploads/sites/2/2013/12/w3c.jpg" width="200" height="150"></p>
 
-El World Wide Web Consortium es una comunidad internacional creada por Tim Berners Lee en 1994, la cual está encargada de definir los estándares de la web y con ello ayudar a un mejor desarrollo del Internet a nivel mundial. (Fuente: [W3C España](http://www.w3c.es/Consorcio/)).
+El World . (Fuente: [W3C España](http://www.w3c.es/Consorcio/)).
 
 La W3C se centra en cutro objetivos, los cuales son:
 - Accesibilidad
@@ -101,7 +91,7 @@ La W3C se centra en cutro objetivos, los cuales son:
 <p align="center">
 <img src="https://bloggea2post.com/wp-content/uploads/2014/05/Yahoo-Actualicen-Su-Navegador-o-Se-les-Cambiar%C3%A1-a-un-Mail-B%C3%A1sico.jpg" width="300" height="200"></p>
 
-Un navegador es un programa informático que permite visualizar la información contenida en una página web así como todos sus componentes, la cual se encuentra alojada en el Internet o en un servidor local; así como también permite navegar por una red informática.
+Un navegador .
 
 Dentro de los navegadores más populares se tienen los siguientes:
 - Google Chrome
@@ -114,47 +104,11 @@ Dentro de los navegadores más populares se tienen los siguientes:
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="pagweb"></a>
-### Definición de Página Web
-
-<p align="center">
-<img src="http://www.paginaswebparacolombia.com/logo-paginas-web.png" width="300" height="200"></p>
-
-Una página web es un documento electrónico que forma parte de la www, el cual está construido en HTML o XHTML, el que puede contener enlaces que direccionan a otras páginas web. Estas páginas web pueden ser alojadas en un servidor remoto o local. (Fuente: [La Suma de Todos](http://www.madrid.org/cs/StaticFiles/Emprendedores/GuiaEmprendedor/tema7/F49_7.9_WEB.pdf))
-
-<a href="#cabecera">A la cabecera</a>
-
-<a name="status"></a>
-### Status Code
-
-<p align="center">
-<img src="http://domoticx.com/wp-content/uploads/http_status_code.jpg" width="200" height="200"></p>
-
-Los códigos de estado son respuestas dadas por el servidor que realiza la petición, el cual está formado de tres dígitos, de acuerdo a esto se tiene los siguientes grupos:
-- 1xx: Respuesta Informativa
-- 2xx: Peticiones correctas
-- 3xx: Redirecciones
-- 4xx: Errores del cliente
-- 5xx: Errores del servidor
-
-A continuación se presentan algunos ejemplos:
-- 100: Solo una parte de la petición ha sido recibida por el servidor
-- 200: La petición es correcta
-- 202: La petición es aceptada para procesamiento
-- 302: La página solicitada ha sido movida a una nueva URL.
-- 403: El acceso a la página solicitada está prohibido.
-- 404: El servidor no puede encontrar la página solicitada.
-- 500: La petición no fue completada. El servidor encontró una condición inesperada. 
-
-(Fuente: [Tutorialespoint](https://www.tutorialspoint.com/http/http_status_codes.htm)).
-
-<a href="#cabecera">A la cabecera</a>
-
 <a name="desarrollo"></a>
 ## Desarrollo de la Práctica
 
-<a name="postman"></a>
-### Uso de la herramienta Postman
+<a name="uso"></a>
+### Uso de CSS
 
 La herramienta **Postman**, puede ser descargada como una extensión de Google Chrome, el cual permite realizar peticiones a una página especificada, mostrando los valores que son devueltos. A continuación se muestra la pantalla inicial de Postman.
 
@@ -178,8 +132,8 @@ Tras haber enviado las peticiones, Postman mostrará los resultados obtenidos, e
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="inspector"></a>
-### Uso de Inspector
+<a name="tipos"></a>
+### Formas de aplicar CSS
 
 Inspector o Inspeccionar es una opción que presentan los navegadores, con la finalidad de poder ver cada uno de los elementos que contiene una determinada página web. Para poder ver dichos elementos, se debe hacer clic derecho sobre la página ingresada y seleccionar la opción **Inspeccionar**.
 
@@ -206,8 +160,8 @@ Dentro de los elementos de la página web, se encuentran los estilos que se pued
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="etiquetas"></a>
-### Etiquetas HTML
+<a name="grid"></a>
+### Uso de Grid con Bootstrap
 
 - *<!DOCTYPE html>:* especifica que el documento es HTML 5.
 
@@ -272,31 +226,11 @@ XML no solo cuenta con etiquetas, sino que permite el ingreso de atributos dentr
 
 <a href="#cabecera">A la cabecera</a>
 
-<a name="servidor"></a>
-### Instalación del Servidor Local HTTP
-
-En Windows para poder instalar un servidor de manera local, se procede a ejecutar el siguiente comando: **npm install http-server**
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/install_local.png?raw=true" width="300" height="200"></p>
-
-Mientras que para instalarlo de manera global, se hace uso del siguiente comando: **npm install http-server -g**
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/install_global.png?raw=true" width="300" height="350"></p>
-
-A continuación se procede a iniciar el servidor mediante el comando: **http-server**
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/start_server.png?raw=true" width="300" height="200"></p>
-
-<a href="#cabecera">A la cabecera</a>
-
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- La realización de la práctica permitió familiarizarse con las diferentes etiquetas que HTML usa, tanto en su escritura como para qué se usan, con la finalidad de que al momento de escribir un documento HTML, sea mucho más rápido y fácil.   
-- Existen varios tipos de navegadores, los cuales permiten buscar todo tipo de información, la que a su vez puede ser transmitida. Todo navegador tiene páginas web, las cuales están desarrolladas siguiendo el lenguaje de marcado o HTML.
-- Es importante que cuando se use el lenguaje de marcado, al momento de abrir una etiqueta, siempre se la debe cerrar. Además de conocer que cada etiqueta puede contener varios atributos, los cuales permiten modificarla.
+- La realización de la práctica .   
+- Existen varios .
+- Es importante .
 
 <a href="#cabecera">A la cabecera</a>
