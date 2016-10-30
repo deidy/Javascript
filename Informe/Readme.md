@@ -141,17 +141,17 @@ Un CSS puede ser aplicado de tres maneras, las cuales son:
     - *valor:* #5F9EA0. De preferencia, se debe colocar el código del color en lugar de su nombre.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/etiqueta.png?raw=true" width="400" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/etiqueta.png?raw=true" width="450" height="120"></p>
 
 - **Por clase:** En este caso, es necesario colocar un nombre a la etiqueta denominado clase, para definirle un valor a dicha propiedad.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/clase.png?raw=true" width="500" height="300"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/clase.png?raw=true" width="250" height="200"></p>
 
 - **Por ID:** Para colocar un estilo por id, es necesario colocar el símbolo *#*, para idicar que es id, seguido de un nombre. Dentro del cual se debe colocar la propiedad y el valor.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/id.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/id.png?raw=true" width="250" height="120"></p>
 
 <a name="grid"></a>
 ### Uso de Grid con Bootstrap
@@ -159,67 +159,68 @@ Un CSS puede ser aplicado de tres maneras, las cuales son:
 Para hacer uso de Bootstrap, es necesario ingresar a la página de Bootstrap y buscar el link que hace referencia a sus estilos.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/bootstrap.jpg?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/bootstrap.jpg?raw=true" width="520" height="150"></p>
 
 - A continuación, se debe colocar el link copiado en la sección `<head>` del documento.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/link.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/link.png?raw=true" width="500" height="140"></p>
 
 Bootstrap hace uso de un grid, el cual cuenta con columnas que en total den 12. El tamaño de las columnas pueden ser definidas de 4 maneras, las cuales son:
 
 - `col-md`: Para este tamaño, se crean tres columnas de un tamaño igual a 4.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_md.png?raw=true" width="300" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_md.png?raw=true" width="300" height="230"></p>
 
 *Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_md.png?raw=true" width="400" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_md.png?raw=true" width="400" height="70"></p>
 
 - `col-sm`: Se crean cuatro columnas de un tamaño igual a 3.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_sm.png?raw=true" width="350" height="100"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_sm.png?raw=true" width="350" height="270"></p>
 
 *Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_sm.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_sm.png?raw=true" width="350" height="80"></p>
 
 - `col-lg`: Se crean dos columnas de un tamaño igual a 6.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_lg.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_lg.png?raw=true" width="300" height="180"></p>
 
 *Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_lg.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_lg.png?raw=true" width="450" height="70"></p>
 
 - `col-xs`: Se crean dos columnas de un tamaño igual a 5 y una columna de un tamaño de 2.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_xs.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_xs.png?raw=true" width="300" height="100"></p>
 
 *Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_xs.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_xs.png?raw=true" width="700" height="40"></p>
 
 Al final se cuenta con la siguiente estructura:
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_final.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_final.png?raw=true" width="450" height="260"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- La realización de la práctica .   
-- Existen varios .
-- Es importante .
+- CSS son hojas de estilo en los cuales se definen los estilos que serán aplicados a cada una de las etiquetas del documento HTML. Estos estilos pueden ser aplicados tanto dentro del mismo documento, así como haciendo referencia a un segundo documento, el cual será agregado al documento inicial o index.   
+- Dado que CSS significa estilos en cascada, al momento de aplicar los estilos a un documento, este cogerá los estilos que fueron definidos en el último css añadido.
+- Al momento de hacer uso de Bootstrap, se debe tener en cuenta que bootstrap tiene como estructura un grid, el cual está compuesto por doce columnas dentro de una fila, la cual puede ser dividida de cualquier manera, con la restricción de que al final las columnas sumen 12. Estas columnas se ajustan a la pantalla conforme esta cambie de tamaño.
+- Hay que recordar que al momento de colocar los valores de cada propiedad dentro del archivo css, se debe colocar el código de cada color en lugar de su nombre, dado que no todos los navegadores reconocen el nombre de cada color.
 
 <a href="#cabecera">A la cabecera</a>
