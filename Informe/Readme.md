@@ -176,27 +176,42 @@ Bootstrap hace uso de un grid, el cual cuenta con columnas que en total den 12. 
 *Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/img.png?raw=true" width="400" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_md.png?raw=true" width="400" height="200"></p>
 
-- imágenes.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/href.png?raw=true" width="350" height="100"></p>
-
-- párrafo.
+- `col-sm`: Se crean cuatro columnas de un tamaño igual a 3.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/parrafo.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_sm.png?raw=true" width="350" height="100"></p>
 
-- enumerada.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/ordenadasNo.png?raw=true" width="250" height="120"></p>
-
-- *ol:* define una lista ordenada.
+*Resultado:*
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/ordenadasEnumeradas.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_sm.png?raw=true" width="400" height="180"></p>
+
+- `col-lg`: Se crean dos columnas de un tamaño igual a 6.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_lg.png?raw=true" width="250" height="120"></p>
+
+*Resultado:*
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_lg.png?raw=true" width="250" height="120"></p>
+
+- `col-xs`: Se crean dos columnas de un tamaño igual a 5 y una columna de un tamaño de 2.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_xs.png?raw=true" width="250" height="120"></p>
+
+*Resultado:*
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_xs.png?raw=true" width="250" height="120"></p>
+
+Al final se cuenta con la siguiente estructura:
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/resul_final.png?raw=true" width="250" height="120"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
