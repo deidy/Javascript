@@ -109,27 +109,26 @@ La librería es una colección de clases, la cual busca reutilizar el código; m
 <a name="uso"></a>
 ### Uso de CSS
 
-dentro.
-
-fuera.
+Un CSS puede ser aplicado a un documento HTML de dos maneras, las cuales son:
+- Ubicando las etiquetas `<style>` dentro de las etiquetas `<head>` del documento.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
 
-Postman .
+- Otra forma es mediante la creación de un archivo adicional, con la extensión **.css**. Para que este archivo pueda ser usado, es necesario colocar la etiqueta `<link>`dentro de la sección `<head>` del documento, en donde se debe indicar la ubicación del archivo css.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+
+Es posible incluir inlcuso varios links dentro de la sección `<head>` del documento.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+
+En caso de incluir varias hojas de estilo en el mismo documento, las cuales afecten a la misma etiqueta con diferentes valores, el archivo HTML hará uso del valor que se encuentre en la última hoja de estilo.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/metodo_get.png?raw=true" width="500" height="200"></p>
-
-A .
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/google.png?raw=true" width="450" height="150"></p>
-
-Tras .
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/resultados_get.png?raw=true" width="500" height="350"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
