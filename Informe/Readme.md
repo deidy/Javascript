@@ -113,69 +113,67 @@ Un CSS puede ser aplicado a un documento HTML de dos maneras, las cuales son:
 - Ubicando las etiquetas `<style>` dentro de las etiquetas `<head>` del documento.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/estilos_dentro.png?raw=true" width="250" height="200"></p>
 
 - Otra forma es mediante la creación de un archivo adicional, con la extensión **.css**. Para que este archivo pueda ser usado, es necesario colocar la etiqueta `<link>`dentro de la sección `<head>` del documento, en donde se debe indicar la ubicación del archivo css.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/estilos_fuera.png?raw=true" width="300" height="150"></p>
 
 Es posible incluir inlcuso varios links dentro de la sección `<head>` del documento.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/varios_estilos.png?raw=true" width="350" height="150"></p>
 
 En caso de incluir varias hojas de estilo en el mismo documento, las cuales afecten a la misma etiqueta con diferentes valores, el archivo HTML hará uso del valor que se encuentre en la última hoja de estilo.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/metodo_get.png?raw=true" width="500" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/estilo_ultimo.png?raw=true" width="400" height="200"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="tipos"></a>
 ### Formas de aplicar CSS
 
-Inspector .
+Un CSS puede ser aplicado de tres maneras, las cuales son:
+- **Por etiqueta:** Es necesario especificar la etiqueta html sobre la cual se quiere colocar el estilo. Dentro de la etiqueta se debe colocar la propiedad a ser afectada junto con su valor. Por ejemplo: 
+    - *propiedad:* background-color
+    - *valor:* #5F9EA0. De preferencia, se debe colocar el código del color en lugar de su nombre.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inspeccionar_google.png?raw=true" width="400" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/etiqueta.png?raw=true" width="400" height="150"></p>
 
-En .
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/elementos_google.png?raw=true" width="500" height="300"></p>
-
-Se .
+- **Por clase:** En este caso, es necesario colocar un nombre a la etiqueta denominado clase, para definirle un valor a dicha propiedad.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/red_google.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/clase.png?raw=true" width="500" height="300"></p>
 
-Dentro .
+- **Por ID:** Para colocar un estilo por id, es necesario colocar el símbolo *#*, para idicar que es id, seguido de un nombre. Dentro del cual se debe colocar la propiedad y el valor.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/cambio_color.png?raw=true" width="500" height="250"></p>
-
-<a href="#cabecera">A la cabecera</a>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/id.png?raw=true" width="500" height="250"></p>
 
 <a name="grid"></a>
 ### Uso de Grid con Bootstrap
 
-documento.
+Para hacer uso de Bootstrap, es necesario ingresar a la página de Bootstrap y buscar el link que hace referencia a sus estilos.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/html.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/bootstrap.jpg?raw=true" width="300" height="180"></p>
 
-- documento.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/estructura.png?raw=true" width="300" height="180"></p>
-
-- menor. 
+- A continuación, se debe colocar el link copiado en la sección `<head>` del documento.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/hs.png?raw=true" width="300" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/link.png?raw=true" width="300" height="180"></p>
 
-- width.
+Bootstrap hace uso de un grid, el cual cuenta con columnas que en total den 12. El tamaño de las columnas pueden ser definidas de 4 maneras, las cuales son:
+
+- `col-md`: Para este tamaño, se crean tres columnas de un tamaño igual a 4.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/02-CSS/Informe/imagenes/col_md.png?raw=true" width="300" height="150"></p>
+
+*Resultado:*
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/img.png?raw=true" width="400" height="200"></p>
