@@ -55,31 +55,83 @@
         
         //arreglos
         
-        var arregloString = ['1', '2', '3'];
-        console.log(arregloString);
+//        var arregloString = ['1', '2', '3'];
+//        console.log(arregloString);
+//        
+//        var arregloNumeros = [1, 2, 3];
+//        console.log(arregloNumeros);
+//        
+//        var arregloFloat = [1.2, 2.3, 3.4];
+//        console.log(arregloFloat);
+//        
+//        var arregloBooleano = [false, true, true];
+//        console.log(arregloBooleano);
+//        
+//        var arregloNull = [null, null, null];
+//        console.log(arregloNull);
+//        
+//        var arregloUndefined = [undefined, undefined, undefined];
+//        console.log(arregloUndefined);
+//        
+//        var arregloTodo = ["Nombre", 123, 3.1416, true, false, undefined, null, "Apellido"];
+//        console.log(arregloTodo);
+//        
+        //Objetos
         
-        var arregloNumeros = [1, 2, 3];
-        console.log(arregloNumeros);
+        var andrea = 'Nombre Andrea';
         
-        var arregloFloat = [1.2, 2.3, 3.4];
-        console.log(arregloFloat);
+        var dei = {
+            'nombre': 'Deidamia',
+            'apellido': 'Quishpe',
+            edad: 22,
+            mascotas:['Cachetes', 'Oso', 'BJ', andrea],
+            hermanos: [{
+                nombre: 'Dorotty',
+                apellido: 'Quishpe'
+            },{
+                nombre: 'Domenica',
+                apellido:'Quishpe'
+            }],
+            
+            getNombre: function() {
+                return this.nombre;
+            },
+            getApellido: function() {
+                return this.apellido;
+            },
+            setApellido: function(nuevoApellido) {
+                this.apellido= nuevoApellido;
+            }
+        }
+//        console.log(dei);
+//        
+//        
+//        console.log('Acceder Nombre');
+//        console.log(dei.nombre);
+//        
+//        console.log('Acceder Apellido');
+//        console.log(dei.apellido);
+//        
+//        console.log('Acceder Hermanos');
+//        console.log(dei.hermanos);
+//        
+        console.log(dei.getNombre());
+        console.log(dei.getApellido());
+        dei.setApellido('Cumba');
+        console.log(dei.getApellido());
         
-        var arregloBooleano = [false, true, true];
-        console.log(arregloBooleano);
+        //Funcion
         
-        var arregloNull = [null, null, null];
-        console.log(arregloNull);
-        
-        var arregloUndefined = [undefined, undefined, undefined];
-        console.log(arregloUndefined);
-        
-        var arregloTodo = ["Nombre", 123, 3.1416, true, false, undefined, null, "Apellido"];
-        console.log(arregloTodo);
-        
+//        function getNombreDei(){
+//            return dei.nombre
+//        }
+//        console.log(getNombreDei());
         
         console.log('Hola desde la consola');
         
     </script>
+    
+    
 </head>
 <body>
     
