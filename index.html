@@ -104,15 +104,18 @@
         
         //Ejericio 5
         
-        console.log("Ejercicio 5");
-        
-        var numSheep = 4;
-        var monthNumber = 1;
-        var monthsToPrint = 12;
-        
-        while(monthNumber<=monthsToPrint){
+//        console.log("Ejercicio 5");
+//        
+//        var numSheep = 4;
+//        var monthNumber = 1;
+//        var monthsToPrint = 12;
+//        
+//        while(monthNumber <= monthsToPrint){
+            
+            numSheep = numSheep * 4;
+            
             if(monthNumber%4==0){
-                console.log('Removing ' + (numSheep * 0.75));
+                console.log('Removing ' + numSheep * 0.75 + ' en ' + monthNumber);
                 numSheep = numSheep - numSheep * 0.75;
             }else{
                 if(numSheep>10000){
@@ -184,6 +187,20 @@
         }
         
         feedPerRange(4,4);
+        
+        
+        //Ejercicio 11
+        
+        console.log("Ejercicio 11");
+        
+        var movie1 = [16, "Candles"];
+        var movie2 = [3, "Men", "end", "a", "Baby"];
+        var eightiesMovies = [movie1, movie2];
+        
+        var infant = eightiesMovies[1][4];
+        console.log(infant);
+        
+        //Ejercicio 12
         
         
     </script>
