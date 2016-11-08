@@ -78,31 +78,31 @@
 //        
         //Objetos
         
-        var andrea = 'Nombre Andrea';
-        
-        var dei = {
-            'nombre': 'Deidamia',
-            'apellido': 'Quishpe',
-            edad: 22,
-            mascotas:['Cachetes', 'Oso', 'BJ', andrea],
-            hermanos: [{
-                nombre: 'Dorotty',
-                apellido: 'Quishpe'
-            },{
-                nombre: 'Domenica',
-                apellido:'Quishpe'
-            }],
-            
-            getNombre: function() {
-                return this.nombre;
-            },
-            getApellido: function() {
-                return this.apellido;
-            },
-            setApellido: function(nuevoApellido) {
-                this.apellido= nuevoApellido;
-            }
-        }
+//        var andrea = 'Nombre Andrea';
+//        
+//        var dei = {
+//            'nombre': 'Deidamia',
+//            'apellido': 'Quishpe',
+//            edad: 22,
+//            mascotas:['Cachetes', 'Oso', 'BJ', andrea],
+//            hermanos: [{
+//                nombre: 'Dorotty',
+//                apellido: 'Quishpe'
+//            },{
+//                nombre: 'Domenica',
+//                apellido:'Quishpe'
+//            }],
+//            
+//            getNombre: function() {
+//                return this.nombre;
+//            },
+//            getApellido: function() {
+//                return this.apellido;
+//            },
+//            setApellido: function(nuevoApellido) {
+//                this.apellido= nuevoApellido;
+//            }
+//        }
 //        console.log(dei);
 //        
 //        
@@ -115,10 +115,10 @@
 //        console.log('Acceder Hermanos');
 //        console.log(dei.hermanos);
 //        
-        console.log(dei.getNombre());
-        console.log(dei.getApellido());
-        dei.setApellido('Cumba');
-        console.log(dei.getApellido());
+//        console.log(dei.getNombre());
+//        console.log(dei.getApellido());
+//        dei.setApellido('Cumba');
+//        console.log(dei.getApellido());
         
         //Funcion
         
@@ -127,7 +127,21 @@
 //        }
 //        console.log(getNombreDei());
         
-        console.log('Hola desde la consola');
+//        console.log('Hola desde la consola');
+        
+        var count=10;
+        
+        console.log("Empieza");
+        
+        while(count>0){
+            console.log(count);
+            if(count%2==0){
+                console.log('El número: ' + count + ' es par');
+            }else{
+                console.log('El número: ' + count + ' es impar');
+            }
+            count--;
+        }
         
     </script>
     
