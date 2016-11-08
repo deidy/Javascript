@@ -164,30 +164,40 @@ Adicionalmente existen otros tipos de clases para las tablas, entre los cuales s
 - table table-bordered
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/mas_tablas.png?raw=true" width="500" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/mas_tablas.png?raw=true" width="580" height="170"></p>
 
-af. 
+Dentro de cada fila de la tabla, se puede colocar colores, mediante el uso de estados como son los siguientes:
+- active
+- success
+- info
+- warning
+- danger
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="300" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="formularios"></a>
 ### Formularios
 
-X.
+Bootstrap permite crear formularios, para lo cual hace uso de varias etiquetas, como las siguientes:
+- input-group
+- input-group-addon
+
+Además de colocar un input de tipo **email**.
+Para hacer uso de los botones, se utiliza la clase **submit**.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/forms.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/forms.png?raw=true" width="700" height="280"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- La .   
-- HTML.
-- Es .
+- Al momento de realizar una página web, se debe tomar en cuenta las definiciones antes vistas, como es el caso de calidad web, en donde se dan características con las cuales debe contar un sitio web; así como es importante validar la página web construida, para lo cual se debe hacer uso de diferentes herramientas.   
+- Bootstrap es un framework que permite el desarrollo de páginas web responsive para que puedan ser adaptados a todo tipo de pantallas, los cuales pueden ser realizados de manera rápida y fácil.
+- Bootstrap permite adicionalmente la creación de tablas y formularios, los cuales cuentan con características propias que permiten adaptarlo a las necesidades de cada desarrollador.
 
 <a href="#cabecera">A la cabecera</a>
