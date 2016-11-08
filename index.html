@@ -6,201 +6,209 @@
     <title>Document</title>
     <script>
                 
-//        //Ejercicio 1
-//        
-//        console.log("Ejercicio 1");
-//        
-//        var count=10;
-//        var arregloNumero = [];
-//        
-//        console.log("Empieza");
-//        
-//        //iteraciones
-//        while(count>0){
-//            console.log(count);
-//            
-//            //comparando
-//            if(count%2==0){
-//                console.log('El número: ' + count + ' es par');
-//            }else{
-//                console.log('El número: ' + count + ' es impar');
-//            }
-//            arregloNumero.push(count);
-//            count--;
-//            
-//        }
-//        
-//        arregloNumero.pop();
-//        //posicion, cuantos se quiere eliminar, valor a ser reemplazado
-//        arregloNumero.splice(3,1,11);
-//        
-//        console.log('Se acabó');
-//        console.log(arregloNumero);
-//        
-//        
-//        //con for
-//        
-//        var i;
-//        console.log('Con for:')
-//        for(i=10;i>0;i--){
-//            console.log(i);
-//        }
-//        
-//        
-//        //Ejercicio 2
-//        
-//        console.log("Ejercicio 2");
-//        
-//        var numSheep = 4;
-//        var monthNumber = 1;
-//        var monthsToPrint = 12;
-//        
-//        while(monthNumber<=monthsToPrint){
-//            numSheep = numSheep*4;
-//            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
-//            monthNumber++;
-//        }
-//        
-//        //con for
-//        
-//        var numSheep = 4;
-//        var monthNumber = 1;
-//        var monthsToPrint = 12;
-//        
-////        for(monthNumber=1; monthNumber<=monthsToPrint; monthNumber++){
-////            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
-////        }
-//                
-//        //Ejericio 3
-//        
-//        console.log("Ejercicio 3");
-//        
-//         while(count>0){
-//            if(count > 1 && count <= 10){
-//                if(count%2==0){
-//                    console.log('El número: ' + count + ' es par');
-//                }
-//            }
-//            count--;
-//        }
-//        
-//        //Ejericio 4
-//        
-//        console.log("Ejercicio 4");
+        //Ejercicio 1
         
-//        var numSheep = 4;
-//        var monthNumber = 1;
-//        var monthsToPrint = 12;
-//        
-//        while(monthNumber<=monthsToPrint){
-//            numSheep = numSheep*4;
-//            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
-//            if(numSheep>10000){
-//                numSheep = numSheep / 2;
-//                console.log('Numero removido ' + numSheep);
-//            }
-//            monthNumber++;
-//        }
+        console.log("Ejercicio 1");
+        
+        var count=10;
+        var arregloNumero = [];
+        
+        console.log("Empieza");
+        
+        //iteraciones
+        while(count>0){
+            console.log(count);
+            
+            //comparando
+            if(count%2==0){
+                console.log('El número: ' + count + ' es par');
+            }else{
+                console.log('El número: ' + count + ' es impar');
+            }
+            arregloNumero.push(count);
+            count--;
+            
+        }
+        
+        arregloNumero.pop();
+        //posicion, cuantos se quiere eliminar, valor a ser reemplazado
+        arregloNumero.splice(3,1,11);
+        
+        console.log('Se acabó');
+        console.log(arregloNumero);
+        
+        
+        //con for
+        
+        var i;
+        console.log('Con for:')
+        for(i=10;i>0;i--){
+            console.log(i);
+        }
+        
+        
+        //Ejercicio 2
+        
+        console.log("Ejercicio 2");
+        
+        var numSheep = 4;
+        var monthNumber = 1;
+        var monthsToPrint = 12;
+        
+        while(monthNumber<=monthsToPrint){
+            numSheep = numSheep*4;
+            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+            monthNumber++;
+        }
+        
+        //con for
+        
+        console.log("Ejercicio 2 con for");
+        
+        var numSheep = 4;
+        var monthNumber = 1;
+        var monthsToPrint = 12;
+        
+        for(monthNumber=1; monthNumber<=monthsToPrint; monthNumber++){
+            numSheep = numSheep * 4;
+            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+        }
+                
+        //Ejericio 3
+        
+        console.log("Ejercicio 3");
+        
+        var count = 10;
+        
+         while(count>0){
+            if(count > 1 && count <= 10){
+                if(count%2==0){
+                    console.log('El número: ' + count + ' es par');
+                }
+            }
+            count--;
+        }
+        
+        //Ejericio 4
+        
+        console.log("Ejercicio 4");
+        
+        var numSheep = 4;
+        var monthNumber = 1;
+        var monthsToPrint = 12;
+        
+        while(monthNumber<=monthsToPrint){
+            numSheep = numSheep*4;
+            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+            if(numSheep>10000){
+                numSheep = numSheep / 2;
+                console.log('Numero removido ' + numSheep);
+            }
+            monthNumber++;
+        }
         
         //Ejericio 5
         
-//        console.log("Ejercicio 5");
-//        
-//        var numSheep = 4;
-//        var monthNumber = 1;
-//        var monthsToPrint = 12;
-//        
-//        while(monthNumber <= monthsToPrint){
-//            
-//            numSheep = numSheep * 4;
-//            
-//            if(monthNumber%4==0){
-//                console.log('Removing ' + numSheep * 0.75 + ' en ' + monthNumber);
-//                numSheep = numSheep - numSheep * 0.75;
-//            }else{
-//                if(numSheep>10000){
-//                    numSheep = numSheep / 2;
-//                    console.log('Numero removido ' + numSheep);
-//                }
-//            }
-//            monthNumber++;
-//        }
-//        
+        console.log("Ejercicio 5");
+        
+        var numSheep = 4;
+        var monthNumber = 1;
+        var monthsToPrint = 12;
+        
+        while(monthNumber <= monthsToPrint){
+            
+            numSheep = numSheep * 4;
+            
+            if(monthNumber%4==0){
+                console.log('Removing ' + numSheep * 0.75 + ' en ' + monthNumber);
+                numSheep = numSheep - numSheep * 0.75;
+            }else{
+                if(numSheep>10000){
+                    numSheep = numSheep / 2;
+                    console.log('Numero removido ' + numSheep);
+                }
+            }
+            monthNumber++;
+        }
+        
         //Ejercicio 6
         
-//        console.log("Ejercicio 6");
-//        //cuadros de dialogo
-//        var respuesta = prompt("Cual es tu edad, Amigo?");
-//        console.log(parseInt(respuesta));
-//        
+        console.log("Ejercicio 6");
+        //cuadros de dialogo
+        var respuesta = prompt("Cual es tu edad, Amigo?");
+        console.log(parseInt(respuesta));
+        
         //Funciones
         //Ejercicio 7
         
-//        console.log("Ejercicio 7");
-//        //funcion con nombre y dentro los parametros
-//        function multiplicar(uno, dos, tres){
-//            return uno * dos * tres;
-//        }
-//        
-//        console.log(multiplicar(2,6,9));
+        console.log("Ejercicio 7");
+        //funcion con nombre y dentro los parametros
+        function multiplicar(uno, dos, tres){
+            return uno * dos * tres;
+        }
+        
+        console.log(multiplicar(2,6,9));
         
         
         //Ejercicio 8
         
-//        console.log("Ejercicio 8");
-//        
-//        function maxOf2(uno, dos){
-//            if(uno>dos){
-//                console.log('El numero mayor es: ' + uno);
-//            }else{
-//                console.log('El numero mayor es: ' + dos);
-//            }
-//            if(uno==dos){
-//                console.log('Los números son iguales: ' + uno);
-//            }
-//        }
-//        
-//        maxOf2(3,8);
-//        maxOf2(12,8);
-//        maxOf2(5,5);
+        console.log("Ejercicio 8");
+        
+        function maxOf2(uno, dos){
+            if(uno>dos){
+                console.log('El numero mayor es: ' + uno);
+            }else{
+                console.log('El numero mayor es: ' + dos);
+            }
+            if(uno==dos){
+                console.log('Los números son iguales: ' + uno);
+            }
+        }
+        
+        maxOf2(3,8);
+        maxOf2(12,8);
+        maxOf2(5,5);
 
         
         //Ejercicio 9
         
-//        console.log("Ejercicio 9");
-//        
-//        function mystery(x,y){
-//            return (4 * x * y) + (3 * y + 5);
-//        }
-//        
-//        console.log(mystery(4,7));
+        console.log("Ejercicio 9");
+        
+        function mystery(x,y){
+            return (4 * x * y) + (3 * y + 5);
+        }
+        
+        console.log(mystery(4,7));
         
         
         //Ejercicio 10
         
-//        console.log("Ejercicio 10");
-//        
-//        function feedPerRange(sheep, rangers){
-//            sheep = sheep * 2;
-//            sheep = sheep / rangers;
-//            console.log('Each Park Ranger should load ' + sheep + ' lbs of feed today');
-//        }
-//        
-//        feedPerRange(4,4);
+        console.log("Ejercicio 10");
+        
+        function feedPerRange(sheep, rangers){
+            sheep = sheep * 2;
+            sheep = sheep / rangers;
+            console.log('Each Park Ranger should load ' + sheep + ' lbs of feed today');
+        }
+        
+        feedPerRange(4,4);
         
         
         //Ejercicio 11
         
-//        console.log("Ejercicio 11");
-//        
-//        var movie1 = [16, "Candles"];
-//        var movie2 = [3, "Men", "end", "a", "Baby"];
-//        var eightiesMovies = [movie1, movie2];
-//        
-//        var infant = eightiesMovies[1][4];
-//        console.log(infant);
+        console.log("Ejercicio 11");
+        
+        var movie1 = [16, "Candles"];
+        var movie2 = [3, "Men", "end", "a", "Baby"];
+        var eightiesMovies = [movie1, movie2];
+        
+        var infant = eightiesMovies[1][4];
+        console.log(infant);
         
         //como conocer el tipo de dato que está siendo definido
+        
+        console.log("Tipo de dato");
+        
         console.log(typeof 1);
         console.log(typeof "1");
         console.log(typeof []);
