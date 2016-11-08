@@ -5,144 +5,172 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script>
-        //alert('Hola');
-        
-        //variables
-        
-//        var texto="Texto";
-//        console.log(texto);
+                
+//        //Ejercicio 1
 //        
-//        var textoNumero="2";
-//        console.log('Valor cuando es String');
-//        console.log(textoNumero);
+//        console.log("Ejercicio 1");
 //        
-//        textoNumero=2;
-//        console.log('Valor cuando es numero');
-//        console.log(textoNumero);
+//        var count=10;
+//        var arregloNumero = [];
 //        
-//        var numero=1;
-//        console.log(numero);
+//        console.log("Empieza");
 //        
-//        var float=1.223;
-//        console.log(float);
-//        textoNumero=float;
-//        console.log('Valor cuando es float');
-//        console.log(textoNumero);
-//        
-//        var booleanTrue=true;
-//        console.log(booleanTrue);
-//        textoNumero=booleanTrue;
-//        console.log('Valor cuando es booleanTrue');
-//        console.log(textoNumero);
-//        
-//        var booleanFalse=false;
-//        console.log(booleanFalse);
-//        textoNumero=booleanFalse;
-//        console.log('Valor cuando es booleanFalse');
-//        console.log(textoNumero);
-//        
-//        var varNull=null;
-//        console.log(varNull);
-//        textoNumero=varNull;
-//        console.log('Valor cuando es varNull');
-//        console.log(textoNumero);
-//        
-//        var varUndefined=undefined;
-//        console.log(varUndefined);
-//        textoNumero=varUndefined;
-//        console.log('Valor cuando es varUndefined');
-//        console.log(textoNumero);
-        
-        //arreglos
-        
-//        var arregloString = ['1', '2', '3'];
-//        console.log(arregloString);
-//        
-//        var arregloNumeros = [1, 2, 3];
-//        console.log(arregloNumeros);
-//        
-//        var arregloFloat = [1.2, 2.3, 3.4];
-//        console.log(arregloFloat);
-//        
-//        var arregloBooleano = [false, true, true];
-//        console.log(arregloBooleano);
-//        
-//        var arregloNull = [null, null, null];
-//        console.log(arregloNull);
-//        
-//        var arregloUndefined = [undefined, undefined, undefined];
-//        console.log(arregloUndefined);
-//        
-//        var arregloTodo = ["Nombre", 123, 3.1416, true, false, undefined, null, "Apellido"];
-//        console.log(arregloTodo);
-//        
-        //Objetos
-        
-//        var andrea = 'Nombre Andrea';
-//        
-//        var dei = {
-//            'nombre': 'Deidamia',
-//            'apellido': 'Quishpe',
-//            edad: 22,
-//            mascotas:['Cachetes', 'Oso', 'BJ', andrea],
-//            hermanos: [{
-//                nombre: 'Dorotty',
-//                apellido: 'Quishpe'
-//            },{
-//                nombre: 'Domenica',
-//                apellido:'Quishpe'
-//            }],
+//        //iteraciones
+//        while(count>0){
+//            console.log(count);
 //            
-//            getNombre: function() {
-//                return this.nombre;
-//            },
-//            getApellido: function() {
-//                return this.apellido;
-//            },
-//            setApellido: function(nuevoApellido) {
-//                this.apellido= nuevoApellido;
+//            //comparando
+//            if(count%2==0){
+//                console.log('El número: ' + count + ' es par');
+//            }else{
+//                console.log('El número: ' + count + ' es impar');
 //            }
+//            arregloNumero.push(count);
+//            count--;
+//            
 //        }
-//        console.log(dei);
+//        
+//        arregloNumero.pop();
+//        //posicion, cuantos se quiere eliminar, valor a ser reemplazado
+//        arregloNumero.splice(3,1,11);
+//        
+//        console.log('Se acabó');
+//        console.log(arregloNumero);
 //        
 //        
-//        console.log('Acceder Nombre');
-//        console.log(dei.nombre);
+//        //con for
 //        
-//        console.log('Acceder Apellido');
-//        console.log(dei.apellido);
-//        
-//        console.log('Acceder Hermanos');
-//        console.log(dei.hermanos);
-//        
-//        console.log(dei.getNombre());
-//        console.log(dei.getApellido());
-//        dei.setApellido('Cumba');
-//        console.log(dei.getApellido());
-        
-        //Funcion
-        
-//        function getNombreDei(){
-//            return dei.nombre
+//        var i;
+//        console.log('Con for:')
+//        for(i=10;i>0;i--){
+//            console.log(i);
 //        }
-//        console.log(getNombreDei());
+//        
+//        
+//        //Ejercicio 2
+//        
+//        console.log("Ejercicio 2");
+//        
+//        var numSheep = 4;
+//        var monthNumber = 1;
+//        var monthsToPrint = 12;
+//        
+//        while(monthNumber<=monthsToPrint){
+//            numSheep = numSheep*4;
+//            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+//            monthNumber++;
+//        }
+//        
+//        //con for
+//        
+//        var numSheep = 4;
+//        var monthNumber = 1;
+//        var monthsToPrint = 12;
+//        
+////        for(monthNumber=1; monthNumber<=monthsToPrint; monthNumber++){
+////            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+////        }
+//                
+//        //Ejericio 3
+//        
+//        console.log("Ejercicio 3");
+//        
+//         while(count>0){
+//            if(count > 1 && count <= 10){
+//                if(count%2==0){
+//                    console.log('El número: ' + count + ' es par');
+//                }
+//            }
+//            count--;
+//        }
+//        
+//        //Ejericio 4
+//        
+//        console.log("Ejercicio 4");
         
-//        console.log('Hola desde la consola');
+//        var numSheep = 4;
+//        var monthNumber = 1;
+//        var monthsToPrint = 12;
+//        
+//        while(monthNumber<=monthsToPrint){
+//            numSheep = numSheep*4;
+//            console.log('There will be ' + numSheep + ' sheep after ' + monthNumber + 'month(s)!');
+//            if(numSheep>10000){
+//                numSheep = numSheep / 2;
+//                console.log('Numero removido ' + numSheep);
+//            }
+//            monthNumber++;
+//        }
         
-        var count=10;
+        //Ejericio 5
         
-        console.log("Empieza");
+        console.log("Ejercicio 5");
         
-        while(count>0){
-            console.log(count);
-            if(count%2==0){
-                console.log('El número: ' + count + ' es par');
+        var numSheep = 4;
+        var monthNumber = 1;
+        var monthsToPrint = 12;
+        
+        while(monthNumber<=monthsToPrint){
+            if(monthNumber%4==0){
+                console.log('Removing ' + (numSheep * 0.75));
+                numSheep = numSheep - numSheep * 0.75;
             }else{
-                console.log('El número: ' + count + ' es impar');
+                if(numSheep>10000){
+                    numSheep = numSheep / 2;
+                    console.log('Numero removido ' + numSheep);
+                }
             }
-            count--;
+            monthNumber++;
         }
         
+        //Ejercicio 6
+        
+//        console.log("Ejercicio 6");
+//        //cuadros de dialogo
+//        var respuesta = prompt("Cual es tu edad, Amigo?");
+//        console.log(parseInt(respuesta));
+//        
+        //Funciones
+        //Ejercicio 7
+        
+//        console.log("Ejercicio 7");
+//        //funcion con nombre y dentro los parametros
+//        function multiplicar(uno, dos, tres){
+//            return uno * dos * tres;
+//        }
+//        
+//        console.log(multiplicar(2,6,9));
+        
+        
+        //Ejercicio 8
+        
+//        console.log("Ejercicio 8");
+//        
+//        function maxOf2(uno, dos){
+//            if(uno>dos){
+//                console.log('El numero mayor es: ' + uno);
+//            }else{
+//                console.log('El numero mayor es: ' + dos);
+//            }
+//            if(uno==dos){
+//                console.log('Los números son iguales: ' + uno);
+//            }
+//        }
+//        
+//        maxOf2(3,8);
+//        maxOf2(12,8);
+//        maxOf2(5,5);
+
+        
+        //Ejercicio 9
+        
+        console.log("Ejercicio 9");
+        
+        function mystery(x,y){
+            return (4*x*y) + (3*y+5);
+        }
+        
+        console.log(mystery(4,7));
     </script>
     
     
