@@ -1,10 +1,10 @@
-# Introducción a la Web
+# Diseño Web
 
 ### Materia: `Tecnologías Web con JavaScript`
 <p align="center">
 <img src="http://img.microsiervos.com/images2016/javascript_logo.png" width="300" height="200">
 </p>
-### Tema: `Introducción a la Web` 
+### Tema: `Diseño Web` 
 ### Fecha: `2016-11-07`
 ### Estudiante: `Deidamia Patricia Quishpe Cumba`
 ### Profesor: `Tania Calle - Adrian Eguez`
@@ -32,7 +32,7 @@
 <a name="tema"></a>
 ## Tema
 
-`Introducción a la Web`
+`Diseño Web`
 
 <a name="objetivos"></a>
 ## Objetivos
