@@ -108,95 +108,68 @@ Bootstrap es un framework para HTML, CSS y JavaScript, para el desarrollo respon
 <a name="boots"></a>
 ### Bootstrap
 
-La .
+Para hacer uso del framework de Bootstrap, primero se debe ingresar a la página de Bootstrap y dar clic en *Download Bootstrap*.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/download_bootstrap.png?raw=true" width="400" height="200"></p>
 
-P.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/formas_descargar.png?raw=true" width="500" height="200"></p>
-
-A .
+Se abrirán varias opciones, en donde se puede seleccionar cual de estas opciones se desea.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/uso_bootstrap.png?raw=true" width="450" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/formas_descargar.png?raw=true" width="500" height="200"></p>
 
-T.
+En caso de no querer descargar este framework, se puede hacer uso del CDN, mediante el link dado en la página.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/anadir_bootstrap.png?raw=true" width="500" height="350"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/uso_bootstrap.png?raw=true" width="500" height="200"></p>
+
+El CDN debe ser ingresado en el HTML, dentro de la sección `<head>`, haciendo uso de la etiqueta `<link>`.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/anadir_bootstrap.png?raw=true" width="450" height="130"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="etiquetas"></a>
 ### Etiquetas Adicionales
 
-In.
+La etiqueta `<small>` permite crear un texto más claro en relación a lo demás.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/small.png?raw=true" width="450" height="50"></p>
 
-En .
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="300"></p>
-
-Se.
+La etiqueta `<code>` permite envolver código dentro de una línea, además de colocar **&lt**.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/code.png?raw=true" width="500" height="80"></p>
 
-De.
+Las etiquetas `<kbd>` hacen referencia al texto que es ingresado por teclado.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/kbd.png?raw=true" width="450" height="150"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
 <a name="tablas"></a>
 ### Tablas
 
-sf.
+Existen varias clases que pueden ser aplicadas a las tablas, por ejemplo la clase `table`, haciendo una tabla básica.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/table.png?raw=true" width="500" height="180"></p>
 
-as.
+Adicionalmente existen otros tipos de clases para las tablas, entre los cuales se tienen los siguientes:
+- table table-striped
+- table table-condensed
+- table table-bordered
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/mas_tablas.png?raw=true" width="500" height="180"></p>
 
 af. 
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="150"></p>
-
-sd.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="200"></p>
-
-dfs.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="350" height="100"></p>
-
-sdfo.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="180"></p>
-
-sdf.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="250" height="120"></p>
-
-sf.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="300" height="150"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -206,7 +179,7 @@ sf.
 X.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/forms.png?raw=true" width="400" height="180"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
