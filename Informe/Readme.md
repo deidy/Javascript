@@ -111,22 +111,22 @@ Bootstrap es un framework para HTML, CSS y JavaScript, para el desarrollo respon
 La .
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inicio_postman.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
 
 P.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/metodo_get.png?raw=true" width="500" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/formas_descargar.png?raw=true" width="500" height="200"></p>
 
 A .
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/google.png?raw=true" width="450" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/uso_bootstrap.png?raw=true" width="450" height="150"></p>
 
 T.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/resultados_get.png?raw=true" width="500" height="350"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/anadir_bootstrap.png?raw=true" width="500" height="350"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -136,22 +136,22 @@ T.
 In.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/inspeccionar_google.png?raw=true" width="400" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="150"></p>
 
 En .
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/elementos_google.png?raw=true" width="500" height="300"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="300"></p>
 
 Se.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/red_google.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
 
 De.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/cambio_color.png?raw=true" width="500" height="250"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="500" height="250"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -161,42 +161,42 @@ De.
 sf.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/html.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="180"></p>
 
 as.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/estructura.png?raw=true" width="300" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="180"></p>
 
 af. 
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/hs.png?raw=true" width="300" height="150"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="300" height="150"></p>
 
 sd.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/img.png?raw=true" width="400" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="200"></p>
 
 dfs.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/href.png?raw=true" width="350" height="100"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="350" height="100"></p>
 
 sdfo.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/parrafo.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="180"></p>
 
 sdf.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/ordenadasNo.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="250" height="120"></p>
 
 sf.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/ordenadasEnumeradas.png?raw=true" width="250" height="120"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="250" height="120"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -206,12 +206,7 @@ sf.
 X.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/etiquetas_xml.png?raw=true" width="400" height="180"></p>
-
-X.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/master/Informes/Informe_1/imagenes/atributos_xml.png?raw=true" width="400" height="180"></p>
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Imagenes/download_bootstrap.png?raw=true" width="400" height="180"></p>
 
 <a href="#cabecera">A la cabecera</a>
 
