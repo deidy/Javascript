@@ -58,36 +58,46 @@
 //            totalMW = totalMW + 124;
 //            console.log('Generator #' + currentGen + ' is on, adding 124 MW, for a total of ' + totalMW + ' MW!');
 //        }
-//        
-//        //deber 2
-//        
-//        var totalGen = 19;
-//        var totalMW = 0;
-//        
-//        for(){
-//            
-//        }
+        
+        //deber 2
+        
+        var totalGen = 19;
+        var totalMW = 0;
+        
+        for(var i = 1; i <= totalGen; i++){
+            if(i%2==0){
+                if(i<=4){
+                    totalMW = totalMW + 62;
+            console.log('Generator #' + i + ' is on, adding 62 MW, for a total of ' + totalMW + ' MW!');
+                }else{
+                    totalMW = totalMW + 124;
+            console.log('Generator #' + i + ' is on, adding 124 MW, for a total of ' + totalMW + ' MW!');
+                }
+            }else{
+                console.log('Generator #' + i + ' is off.');
+            }
+        }
         
         
-        //Ejercicio 3
-        
-        var puzzlers = [function(input){
-                            return (3 * input - 8)
-                        },
-                        function(input){
-                            return(Math.pow((input + 2),3))
-                        },
-                        function(input){
-                            return((Math.pow(input,2))-9)
-                        },
-                        function(input){
-                            return(input % 4)
-                        }]
-                        
-        console.log(puzzlers[0](5));
-        console.log(puzzlers[1](5));
-        console.log(puzzlers[2](5));
-        console.log(puzzlers[3](5));
+//        //Ejercicio 3
+//        
+//        var puzzlers = [function(input){
+//                            return (3 * input - 8)
+//                        },
+//                        function(input){
+//                            return(Math.pow((input + 2),3))
+//                        },
+//                        function(input){
+//                            return((Math.pow(input,2))-9)
+//                        },
+//                        function(input){
+//                            return(input % 4)
+//                        }]
+//                        
+//        console.log(puzzlers[0](5));
+//        console.log(puzzlers[1](5));
+//        console.log(puzzlers[2](5));
+//        console.log(puzzlers[3](5));
         
         
 //        //Ejercicio 4
@@ -105,35 +115,35 @@
 //        console.log(adventureSelector(prompt('Ingrese un numero'))());
         
         
-        //Ejercicio 5
-        
-        var puzzlers = [
-                        function(a){
-                            return 8 * a - 10;
-                        },
-                        function(a){
-                            return (a - 3) * (a - 3) * (a - 3);
-                        },
-                        function(a){
-                            return a * a + 4;
-                        },
-                        function(a){
-                            return a % 5;
-                        }];
-        
-        var start = 2;
-        
-        var applyAndEmpty = function(input, queue){
-            var longitud = queue.length;
-            for(var i = 0; i < longitud; i++){
-                input = queue[0](input);
-                queue.splice(0,1);
-            }
-            console.log(queue);
-            return input;
-        };
-        
-        console.log(applyAndEmpty(start,puzzlers))
+//        //Ejercicio 5
+//        
+//        var puzzlers = [
+//                        function(a){
+//                            return 8 * a - 10;
+//                        },
+//                        function(a){
+//                            return (a - 3) * (a - 3) * (a - 3);
+//                        },
+//                        function(a){
+//                            return a * a + 4;
+//                        },
+//                        function(a){
+//                            return a % 5;
+//                        }];
+//        
+//        var start = 2;
+//        
+//        var applyAndEmpty = function(input, queue){
+//            var longitud = queue.length;
+//            for(var i = 0; i < longitud; i++){
+//                input = queue[0](input);
+//                queue.splice(0,1);
+//            }
+//            console.log(queue);
+//            return input;
+//        };
+//        
+//        console.log(applyAndEmpty(start,puzzlers));
         
     </script>
     
