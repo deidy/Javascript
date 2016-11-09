@@ -90,20 +90,50 @@
         console.log(puzzlers[3](5));
         
         
-        //Ejercicio 4
+//        //Ejercicio 4
+//        
+//        function adventureSelector(userChoise){
+//            if(userChoise==1){
+//                return function(){alert('You selected the Vines of Doom!')};
+//            }else if(userChoise==2){
+//                return function(){alert('Looks like you want the Lake of Despair!')};
+//            }else{
+//                return function(){alert('The Caves of Catastrophe!')};
+//            }
+//        }
+//        
+//        console.log(adventureSelector(prompt('Ingrese un numero'))());
         
-        function adventureSelector(userChoise){
-            if(userChoise==1){
-                return function(){alert('You selected the Vines of Doom!')};
-            }else if(userChoise==2){
-                return function(){alert('Looks like you want the Lake of Despair!')};
-            }else{
-                return function(){alert('The Caves of Catastrophe!')};
+        
+        //Ejercicio 5
+        
+        var puzzlers = [
+                        function(a){
+                            return 8 * a - 10;
+                        },
+                        function(a){
+                            return (a - 3) * (a - 3) * (a - 3);
+                        },
+                        function(a){
+                            return a * a + 4;
+                        },
+                        function(a){
+                            return a % 5;
+                        }];
+        
+        var start = 2;
+        
+        var applyAndEmpty = function(input, queue){
+            var longitud = queue.length;
+            for(var i = 0; i < longitud; i++){
+                input = queue[0](input);
+                queue.splice(0,1);
             }
-        }
+            console.log(queue);
+            return input;
+        };
         
-        console.log(adventureSelector(prompt('Ingrese un numero'))());
-        
+        console.log(applyAndEmpty(start,puzzlers))
         
     </script>
     
