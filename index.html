@@ -20,6 +20,23 @@
         
         nombre();
         
+        //Ejercicio
+        
+        var passengers = [ ["Thomas", "Meeks"],
+                           ["Gregg", "Pollack"],
+                           ["Christine", "Wong"],
+                           ["Dan", "McGaw"]];
+        
+        //es posible enviar funciones como parametros dentro de otra funcion map-foreach en arreglos
+        
+        //funcion anonima dentro de map
+        //la funcion map devuelve un arreglo, a la cual se le manda una funcion que realice algo
+        var modifiedNames = passengers.map(function(arrayNombreApellido){
+            return arrayNombreApellido[0] + ' ' + arrayNombreApellido[1];
+            //console.log(modifiedNames);
+        });
+        
+        //Ejercicio
         
     </script>
     
