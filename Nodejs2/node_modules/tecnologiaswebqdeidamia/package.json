@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "tecnologiaswebqdeidamia",
+        "scope": null,
+        "escapedName": "tecnologiaswebqdeidamia",
+        "name": "tecnologiaswebqdeidamia",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ]
+  ],
+  "_from": "tecnologiaswebqdeidamia@latest",
+  "_id": "tecnologiaswebqdeidamia@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/tecnologiaswebqdeidamia",
+  "_nodeVersion": "6.7.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/tecnologiaswebqdeidamia-1.0.1.tgz_1479929749980_0.41433837451040745"
+  },
+  "_npmUser": {
+    "name": "deidy",
+    "email": "deidamia.quishpe@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "tecnologiaswebqdeidamia",
+    "scope": null,
+    "escapedName": "tecnologiaswebqdeidamia",
+    "name": "tecnologiaswebqdeidamia",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/tecnologiaswebqdeidamia/-/tecnologiaswebqdeidamia-1.0.1.tgz",
+  "_shasum": "31084ddad8838abce736d16d4e294112c09c53d5",
+  "_shrinkwrap": null,
+  "_spec": "tecnologiaswebqdeidamia",
+  "_where": "",
+  "author": {
+    "name": "Deidamia Quishpe"
+  },
+  "dependencies": {},
+  "description": "Ejemplo para usar el npm",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "31084ddad8838abce736d16d4e294112c09c53d5",
+    "tarball": "https://registry.npmjs.org/tecnologiaswebqdeidamia/-/tecnologiaswebqdeidamia-1.0.1.tgz"
+  },
+  "keywords": [
+    "calculadora",
+    "ejemplo",
+    "estudio"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "maintainers": [
+    {
+      "name": "deidy",
+      "email": "deidamia.quishpe@gmail.com"
+    }
+  ],
+  "name": "tecnologiaswebqdeidamia",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
