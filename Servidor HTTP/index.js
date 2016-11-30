@@ -70,11 +70,11 @@ app.post('/Usuario', function (req, res) {
 })
 
 app.put('/Usuario/:idUsuario', function (req, res) {
-    
+    //deber
 })
 
 app.delete('/Usuario/:idUsuario', function (req, res) {
-    
+    //deber
 })
 
 app.get('/TecnologiasWeb', function (req, res) {
