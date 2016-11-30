@@ -23,6 +23,7 @@ var usuarios = [
     }
 ]
 
+var contador = 3;
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
@@ -41,6 +42,38 @@ app.get('/Usuario/:idUsuario', function (req, res) {
         }
     }
     res.send('No existe el Usuario');
+    
+})
+
+app.post('/Usuario', function (req, res) {
+    
+    console.log(req.query.nombre);
+    console.log(req.query.cedula);
+    
+    if(!req.query.nombre){
+        res.send('No envio el nombre');
+    }
+    
+    if(!req.query.cedula){
+        res.send('No envio la cedula');
+    }
+    
+    var nuevoUsuario = {
+        id: contador+1,
+        nombre:req.query.nombre,
+        cedula:req.query.cedula
+    }
+    
+    usuarios.push(nuevoUsuario);
+    contador = contador++;
+    res.json(nuevoUsuario);
+})
+
+app.put('/Usuario/:idUsuario', function (req, res) {
+    
+})
+
+app.delete('/Usuario/:idUsuario', function (req, res) {
     
 })
 
