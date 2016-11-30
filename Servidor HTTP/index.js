@@ -20,6 +20,10 @@ app.post('/TecnologiasWeb', function (req, res) {
         cedula: '0000000000'
     }
     
+    //agregar un campo al objeto
+    usuario.apellido = 'Quishpe';
+    usuario.mascotas = [];
+    usuario.casado = false;
     
     console.log("Lo que tengo en el request");
     console.log(req);
@@ -30,6 +34,8 @@ app.post('/TecnologiasWeb', function (req, res) {
     console.log(req.headers);
     console.log("Cabeceras response");
     console.log(res.headers);
+        
+    res.append('token', '1234');
     
     //enviar objetos json
     res.json(usuario);
