@@ -60,13 +60,25 @@ console.log(quePasa);
 app.get('/', function (req, res) {
     //res.send('Hello World!');
     
-    console.log('antes de leer');
-    fs.readFile('./paginas/pagina.html', 'utf8', function (err, archivoLeido) {
-        console.log(err);
-        console.log(archivoLeido);
-        res.send(archivoLeido);
+    var todo = '';
+    
+    console.log('1 antes de leer');
+    fs.readFile('./paginas/pagina.html', 'utf8', function (err, archivoLeido1) {
+        todo+=archivoLeido1;
+        
+        fs.readFile('./paginas/usuario.html', 'utf8', function (err, archivoLeido2) {
+            todo+=archivoLeido2;
+            
+            fs.readFile('./paginas/footer.html', 'utf8', function (err, archivoLeido3) {
+                
+                todo+=archivoLeido3;
+                
+                res.send(todo);
+            });
+        });
     });
-    console.log('parece que termino de leer');
+    
+    console.log('2 parece que termino de leer');
 });
 
 app.get('/Usuario', function (req, res) {
