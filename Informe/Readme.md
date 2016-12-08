@@ -160,11 +160,6 @@ Se intalla Express en el directorio creado y se guarda la lista de dependencias.
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/kbd.png?raw=true" width="450" height="150"></p>
 
-Se puede instalar el servidor Express de forma temporal sin añadir la lista de dependecias omitiendo la opcion `--save`.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/kbd.png?raw=true" width="450" height="150"></p>
-
 **Ejemplo**
 
 Dentro de la carpeta creada, se debe crear un archivo con el nombre que fue especificado durante la configuración, en este caso es *index.js*. El archivo contiene un código como ejemplo, a este código modificarlo en la URL y en el mensaje de retorno.
@@ -178,7 +173,7 @@ Se guardan las modificaciones realizadas y se procede a ejecutarlo en la consola
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/kbd.png?raw=true" width="450" height="150"></p>
 
-- Como se puede ver, en la consola se muestra el mensaje colocado en el código anterior
+- Mientras que en el navegador, al ingresar la URL y el puerto especificado, devuelve el valor colocado dentro de *res*.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/kbd.png?raw=true" width="450" height="150"></p>
@@ -188,25 +183,59 @@ Se guardan las modificaciones realizadas y se procede a ejecutarlo en la consola
 <a name="metodos"></a>
 ### Métodos HTTP
 
-Existen varias clases que pueden ser aplicadas a las tablas, por ejemplo la clase `table`, haciendo una tabla básica.
+Se define una variable denominada puerto dentro del código, lo cual permite que el valor pueda ser referenciado y no quemado.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/table.png?raw=true" width="500" height="180"></p>
 
-Adicionalmente existen otros tipos de clases para las tablas, entre los cuales se tienen los siguientes:
-- table table-striped
-- table table-condensed
-- table table-bordered
+El método *listen* permite definir el puerto mediante el cual escuchará el servidor.
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/mas_tablas.png?raw=true" width="580" height="170"></p>
 
-Dentro de cada fila de la tabla, se puede colocar colores, mediante el uso de estados como son los siguientes:
-- active
-- success
-- info
-- warning
-- danger
+Se pueden configurar los parámetros de la cabecera mediante el comando append dentro el método post.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Con ayuda de la herramienta Postman, se obtiene lo siguiente:
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+**Ejemplo**
+
+Se crea un arreglo con varios objetos, los cuales serán ejecutados con los métodos http.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Para buscar todos los datos del arreglo, se hace uso del método `get`. Para la respuesta se hace uso del parámetro `res` mediante la opción `json`, con lo que se obtendrá un objeto json.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Como resultado se obtiene lo siguiente:
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Para buscar solo un objeto, se hace uso del método `get` y en la URL se debe enviar el id del valor a buscar. 
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Como resultado se se obtiene lo siguiente:
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Para crear un nuevo registro, se hace uso del método `post`. Dentro del método se establecen los valores del nuevo Usuario, los que serán añadidos por el método `push`.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
+
+Como resultado se se obtiene lo siguiente:
 
 <p align="center">
 <img src="https://github.com/deidy/Javascript/blob/03-bootstrap/Informe/Imagenes/class_tr.png?raw=true" width="700" height="350"></p>
@@ -216,8 +245,8 @@ Dentro de cada fila de la tabla, se puede colocar colores, mediante el uso de es
 <a name="concRecom"></a>
 ## Conclusiones y Recomendaciones
 
-- Al momento de realizar una página web, se debe tomar en cuenta las definiciones antes vistas, como es el caso de calidad web, en donde se dan características con las cuales debe contar un sitio web; así como es importante validar la página web construida, para lo cual se debe hacer uso de diferentes herramientas.   
-- Bootstrap es un framework que permite el desarrollo de páginas web responsive para que puedan ser adaptados a todo tipo de pantallas, los cuales pueden ser realizados de manera rápida y fácil.
-- Bootstrap permite adicionalmente la creación de tablas y formularios, los cuales cuentan con características propias que permiten adaptarlo a las necesidades de cada desarrollador.
+- Node Js es un servidor que permite instalar aplicaciones mediante un gestor de paquetes denominado npm, el cual es ejecutado desde la línea de comandos. Este gestor de paquetes permite manejar las dependencias y librerías de las aplicaciones.
+- Se hizo uso de la herramienta Express Js, dentro de la cual se realizaron ejemplos haciendo uso de los diferentes métodos http, como get y post, para realizar la búsqueda y creación de registros.
+- Todos los métodos http, hacen uso de parámetros como req y res, los cuales permiten tanto la recepción como el envío de datos al servidor. Estos parámetros son usados en cada uno de los métodos http utilizados para este laboratorio.
 
 <a href="#cabecera">A la cabecera</a>
