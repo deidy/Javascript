@@ -31,3 +31,17 @@ El servidor web de sails se encuentra localizado en la carpeta **assets**
 Para generar controladores se utiliza el siguiente comando:
 
 >sails generate controller NombreControlador
+
+## Generar Modelos Sailsjs
+
+Para generar controladores se utiliza el siguiente comando:
+
+>sails generate model NombreModelo
+
+## Generar APIs Sailsjs
+
+Para generar api se utiliza el siguiente comando:
+
+>sails generate api NombreAPI
+
+Un API es la fusión de un **Controlador** y de un **Modelo**
