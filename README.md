@@ -45,3 +45,27 @@ Para generar api se utiliza el siguiente comando:
 >sails generate api NombreAPI
 
 Un API es la fusión de un **Controlador** y de un **Modelo**
+
+# API REST
+
+## Modelo Usuario
+
+### Crear
+
+URL:
+
+´http://localhost:1337/Usuario´
+
+Metodo HTTP:
+
+´POST´
+
+Datos:
+
+´´´javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+´´´
