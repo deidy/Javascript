@@ -54,18 +54,18 @@ Un API es la fusión de un **Controlador** y de un **Modelo**
 
 URL:
 
-´http://localhost:1337/Usuario´
+`http://localhost:1337/Usuario`
 
 Metodo HTTP:
 
-´POST´
+`POST`
 
 Datos:
 
-´´´javascript 
+```javascript 
 {
     nombre:'Dei',
     apellido:'Quishpe',
     correo:'deidamia.quishpe@epn.edu.ec'
 }
-´´´
+```
