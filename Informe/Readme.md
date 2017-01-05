@@ -44,7 +44,13 @@
 <p align="center">
 <img src="https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67" width="200" height="80"></p>
 
-Sails es un framework Javascript diseñado para ser similar a la arquitectura MVC. Facilita el proceso de creación de aplicaciones de Node.js, especialmente API, aplicaciones de una sola página y funciones en tiempo real, como el chat. (Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/introduction-to-sailsjs--net-35390)).
+Sails es un framework Javascript diseñado para ser similar a la arquitectura MVC. Facilita el proceso de creación de aplicaciones de Node.js, especialmente API, aplicaciones de una sola página y funciones en tiempo real, como el chat. 
+- Sails js está compuesto por una carpeta denomicada **Assets**, el cual funciona como un servidor web de archivos estáticos, en donde cualquier tipo de archivos que coloquemos en esta carpeta será mostrada al público.
+- La carpeta denominada **Views** contiene todas las vistas que se van a mostrar al usuario dependiendo de la lógica de la aplicación.
+- El archivo **Routes** contiene las rutas de a donde vamos a direccionar nuestro trafico dependiendo los métodos HTTP y el URL de nuestros recursos.
+- Los **Controladores** brindan los métodos CRUD de los modelos, así como también exponen la lógica de negocio que se defina en la aplicación.
+- El archivo **pipeline.js** es donde se encuentran las diferentes configuraciones de GRUNT que es un automatizador de actividades con JavaScript.
+(Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/introduction-to-sailsjs--net-35390)).
 
 <a href="#cabecera">A la cabecera</a>
 
