@@ -42,9 +42,9 @@
 ### Sailsjs
 
 <p align="center">
-<img src="http://2xmil.es/wp-content/uploads/2015/12/dise%C3%B1o-web-responsive.jpg" width="320" height="150"></p>
+<img src="https://camo.githubusercontent.com/9e49073459ed4e0e2687b80eaf515d87b0da4a6b/687474703a2f2f62616c64657264617368792e6769746875622e696f2f7361696c732f696d616765732f6c6f676f2e706e67" width="200" height="80"></p>
 
-El . (Fuente: [Web Design and more](https://webdesignerandmore.wordpress.com/2012/09/25/que-es-diseno-web/)).
+Sails es un framework Javascript diseñado para ser similar a la arquitectura MVC. Facilita el proceso de creación de aplicaciones de Node.js, especialmente API, aplicaciones de una sola página y funciones en tiempo real, como el chat. (Fuente: [envatotuts+](https://code.tutsplus.com/tutorials/introduction-to-sailsjs--net-35390)).
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -52,9 +52,9 @@ El . (Fuente: [Web Design and more](https://webdesignerandmore.wordpress.com/201
 ### Grunt
 
 <p align="center">
-<img src="https://siteimprove.com/wp-content/uploads/2015/10/quality_assurance.png" width="180" height="150"></p>
+<img src="https://amsterdam.luminis.eu/wp-content/uploads/2014/12/grunt_logo.jpg" width="280" height="150"></p>
 
-Para. (Fuente: [w3schools](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/website/web_quality.asp.html)).
+En la actualidad, Grunt crece a pasos agigantados, lo cual puede ser visto en los cientos de plugins que presenta, los que pueden ser elegidos para automatizar casi cualquier cosa con un mínimo esfuerzo. (Fuente: [GRUNT The JavaScript Task Runner](http://gruntjs.com/)).
 
 <a href="#cabecera">A la cabecera</a>
 
@@ -64,25 +64,25 @@ Para. (Fuente: [w3schools](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools
 <a name="sails"></a>
 ### Sailsjs
 
-P*.
+Se procede a instalar sails, lo cual se realiza mediante el siguiente comando `npm install -g sails`.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img1.png?raw=true" width="400" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img1.png?raw=true" width="350" height="180"></p>
 
-Se abrirán varias opciones, en donde se puede seleccionar cual de estas opciones se desea.
-
-<p align="center">
-<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img2.png?raw=true" width="500" height="200"></p>
-
-En caso de no querer descargar este framework, se puede hacer uso del CDN, mediante el link dado en la página.
+Posteriormente, se procede a crear un nuevo proyecto, para lo cual se hace uso del siguiente comando `sails new NombreProyecto`.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img3.png?raw=true" width="500" height="200"></p>
+<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img2.png?raw=true" width="400" height="200"></p>
+
+Una vez que el proyecto a sido creado, dentro de la carpeta en donde se encuentre, se creará una nueva carpeta con el nombre En caso de no querer descargar este framework, se puede hacer uso del CDN, mediante el link dado en la página.
+
+<p align="center">
+<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img3.png?raw=true" width="100" height="200"></p>
 
 El CDN debe ser ingresado en el HTML, dentro de la sección `<head>`, haciendo uso de la etiqueta `<link>`.
 
 <p align="center">
-<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img4.png?raw=true" width="450" height="130"></p>
+<img src="https://github.com/deidy/Javascript/blob/11-Sails-02/Informe/Imagenes/img4.png?raw=true" width="290" height="150"></p>
 
 La etiqueta `<small>` permite crear un texto más claro en relación a lo demás.
 
