@@ -8,11 +8,13 @@ module.exports = {
     attributes: {
         nombres: {
             type: 'string', 
-            minLength: 5
+            minLength: 5,
+            required:true
         }, 
         apellidos: {
             type: 'string', 
-            minLength: 5
+            minLength: 5,
+            required:true
         }, 
         correo: {
             type: 'string', 

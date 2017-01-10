@@ -62,13 +62,13 @@ Metodo HTTP:
 
 Datos:
 
-```javascript 
+``javascript 
 {
     nombre:'Dei',
     apellido:'Quishpe',
     correo:'deidamia.quishpe@epn.edu.ec'
 }
-```
+``
 
 ### Buscar Usuarios
 
@@ -84,9 +84,7 @@ Datos:
 
 ```javascript 
 {
-    nombre:'Dei',
-    apellido:'Quishpe',
-    correo:'deidamia.quishpe@epn.edu.ec'
+    
 }
 ```
 
@@ -104,9 +102,7 @@ Datos:
 
 ```javascript 
 {
-    nombre:'Dei',
-    apellido:'Quishpe',
-    correo:'deidamia.quishpe@epn.edu.ec'
+    
 }
 ```
 
@@ -124,9 +120,7 @@ Datos:
 
 ```javascript 
 {
-    nombre:'Dei',
-    apellido:'Quishpe',
-    correo:'deidamia.quishpe@epn.edu.ec'
+    
 }
 ```
 
@@ -144,8 +138,6 @@ Datos:
 
 ```javascript 
 {
-    nombre:'Dei',
-    apellido:'Quishpe',
-    correo:'deidamia.quishpe@epn.edu.ec'
+    
 }
 ```
