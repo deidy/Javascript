@@ -50,7 +50,7 @@ Un API es la fusión de un **Controlador** y de un **Modelo**
 
 ## Modelo Usuario
 
-### Crear
+### Crear Usuario
 
 URL:
 
@@ -59,6 +59,86 @@ URL:
 Metodo HTTP:
 
 `POST`
+
+Datos:
+
+```javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+```
+
+### Buscar Usuarios
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`GET`
+
+Datos:
+
+```javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+```
+
+### Buscar un Usuario
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`GET`
+
+Datos:
+
+```javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+```
+
+### Eliminar Usuario
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`DELETE`
+
+Datos:
+
+```javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+```
+
+### Actualizar Usuario
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`DELETE`
 
 Datos:
 
