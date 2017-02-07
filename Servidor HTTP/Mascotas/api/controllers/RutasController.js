@@ -16,18 +16,12 @@ module.exports = {
                 nombre: 'Mauricio',
                 cedula: 1718137159
             },
-            usuarios: []
+            usuarios:[]
+            
         });
     },
 
     crearUsuario: function (req, res) {
-        return res.view('vistas/crearUsuario', {
-            titulo: 'Inicio',
-            numero: 1,
-            mauricio: {
-                nombre: 'Mauricio',
-                cedula: 1718137159
-            }
-        });
+        return res.view('vistas/crearUsuario');
     }
 };
