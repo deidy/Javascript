@@ -34,19 +34,27 @@
   </head>
 
   <body>
-   <!-- Contenerdor de las vistas -->
-   <h1>Hola</h1>
-   <ul>
-       <li><a href="/Quito">Quito</a></li>
-       <li><a href="/Guayaquil">Guayaquil</a></li>
-       <li><a href="/Cuenca">Cuenca</a></li>
-       <li><a href="/">Home</a></li>
-   </ul>
-   <!-- Vistas en si -->
-   <!-- Aqui va el menu-->
+   
     <%- body %>
-    <h1>Adios</h1>
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span>MENU</span>
+      </button>
+      <a class="navbar-brand" href="#">Mascotas</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/Inicio">Inicio</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
     <!--
         Client-side Templates

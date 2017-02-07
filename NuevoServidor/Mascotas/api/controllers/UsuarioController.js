@@ -14,67 +14,58 @@ module.exports = {
 
         // Guardando todos los parametros en la variable parametros
 
-        var parametros = req.allParams();
-        console.log(parametros);
+        if (req.method == "POST") {
 
-        if (req.method == 'POST') {
+            var parametros = req.allParams();
+
             if (parametros.nombres && parametros.apellidos) {
-                //creo el usuario
-                Usuario.create({
+
+                var usuarioCrear = {
                     nombres: parametros.nombres,
                     apellidos: parametros.apellidos,
                     correo: parametros.correo
-                }).exec(function (error, usuarioCreado) {
-                    if (error) return res.serverError()
-                    sails.log.info(usuarioCreado);
-                    return res.ok(usuarioCreado);
-                });
-            } else {
-                // bad Request
-                return res.badRequest('No envia todos los parametros');
-            }
-        } else {
-            return res.badRequest('Metodo invalido');
-        }
+                }
+                
+                if (parametros.correo == "") {
+                    delete usuarioCrear.correo;
+                }
 
-    },
-    crearUsuarioForm: function (req, res) {
+                //Todos los métodos son con el modelo
+                Usuario.create(usuarioCrear).exec(function (err, usuarioCreado) {
 
-        var parametros = req.allParams();
-        console.log(parametros);
+                    if (err) {
+                        return res.view('vistas/Error', {
+                            error: {
+                                descripcion: "Fallo al crear un Usuario",
+                                rawError: "",
+                                url: "/crearUsuario"
+                            }
+                        });
+                    }
+                    
+                    return res.view('vistas/Usuario/crearUsuario');
 
-        if (req.method == 'POST') {
-            if (parametros.nombres && parametros.apellidos) {
-                //creo el usuario
-                Usuario.create({
-                    nombres: parametros.nombres,
-                    apellidos: parametros.apellidos,
-                    correo: parametros.correo
-                }).exec(function (error, usuarioCreado) {
-                    if (error) return res.serverError()
-                    sails.log.info(usuarioCreado);
-
-                    return res.view('vistas/home', {
-                        titulo: 'Inicio',
-                        numero: 1,
-                        mauricio: {
-                            nombre: 'Mauricio',
-                            cedula: 1718137159
-                        }
-                    });
-                });
-
-
-
+                })
 
             } else {
-                // bad Request
-                return res.badRequest('No envia todos los parametros');
+                return res.view('vistas/Error', {
+                    error: {
+                        descripcion: "Llena todos los parámetros, nombres y apellidos",
+                        rawError: "Fallo en envío de parámetros",
+                        url: "/crearUsuario"
+                    }
+                });
             }
+
         } else {
-            return res.badRequest('Metodo invalido');
+            return res.view('vistas/Error', {
+                error: {
+                    descripcion: "Error en el uso del Método HTTP",
+                    rawError: "HTTP Inválido",
+                    url: "/crearUsuario"
+                }
+            });
         }
 
     }
-
 };
