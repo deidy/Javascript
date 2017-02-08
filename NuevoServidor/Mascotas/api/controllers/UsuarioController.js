@@ -37,13 +37,30 @@ module.exports = {
                         return res.view('vistas/Error', {
                             error: {
                                 descripcion: "Fallo al crear un Usuario",
-                                rawError: "",
+                                rawError: err,
                                 url: "/crearUsuario"
                             }
                         });
                     }
                     
-                    return res.view('vistas/Usuario/crearUsuario');
+                    Usuario.find()
+            .exec(function(errorIndefinido, usuariosEncontrados){
+            
+            if(errorIndefinido){
+                res.view('vistas/Error', {
+                    error:{
+                        descripcion: "Hubo un problema cargando los usuarios",
+                        rawError: errorIndefinido,
+                        url: "/ListarUsuarios"
+                    }
+                });
+            }
+            
+            res.view('vistas/Usuario/ListarUsuarios', {
+                usuarios: usuariosEncontrados
+            });
+            
+        })
 
                 })
 
@@ -67,5 +84,58 @@ module.exports = {
             });
         }
 
+    },
+    
+    borrarUsuario: function (req, res){
+        
+        var parametros = req.allParams();
+        
+        if(parametros.id){
+            
+            Usuario.destroy({
+                id: parametros.id
+            }).exec(function (errorInesperado, usuarioRemovido){
+                
+                if(errorInesperado) {
+                    return res.view('vistas/Error', {
+                            error: {
+                                descripcion: "Tuvimos un Error Inesperado",
+                                rawError: errorInesperado,
+                                url: "/ListarUsuarios"
+                            }
+                        });
+                }
+                
+                Usuario.find()
+            .exec(function(err, usuariosEncontrados){
+            
+            if(err){
+                res.view('vistas/Error', {
+                    error:{
+                        descripcion: "Hubo un problema cargando los usuarios",
+                        rawError: error,
+                        url: "/ListarUsuarios"
+                    }
+                });
+            }
+            
+            res.view('vistas/Usuario/ListarUsuarios', {
+                usuarios: usuariosEncontrados
+            });
+            
+        })
+                
+            })
+            
+        }else{
+            return res.view('vistas/Error', {
+                error: {
+                    descripcion: "Necesitamos el id para borrar al Usuario",
+                    rawError: "No envía ID",
+                    url: "/ListarUsuarios"
+                }
+            });
+        }
     }
+    
 };
