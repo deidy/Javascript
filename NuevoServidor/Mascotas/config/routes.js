@@ -40,6 +40,8 @@ module.exports.routes = {
     
     'get /Error':  'RutasController.error',
     
+    'get /ListarUsuarios':  'RutasController.listarUsuarios'
+    
 
     /***************************************************************************
      *                                                                          *
