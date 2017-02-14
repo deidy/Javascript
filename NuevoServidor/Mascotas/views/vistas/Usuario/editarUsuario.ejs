@@ -1,0 +1,35 @@
+<%
+    if(!usuarioEditar){
+        var usuarioEditar = {
+            "nombres": "Deidamia",
+            "apellidos": "Quishpe",
+            "correo": "dei.quishpe@asd.com",
+            "createdAt": "2017-02-08T19:25:07.864Z",
+            "updatedAt": "2017-02-08T19:25:07.864Z",
+            "id": 3
+        }
+    }
+%>
+
+<h1>Editar Usuario - <%= usuarioEditar.nombres %>!</h1>
+
+<form action="/Usuario/CrearUsuario" method="post">
+
+    <div class="form-group">
+        <label>Nombres</label>
+        <input type="text" class="form-control" placeholder="Ingrese sus Nombres" name="nombres" value="<%= usuarioEditar.nombres %>">
+    </div>
+
+    <div class="form-group">
+        <label>Apellidos</label>
+        <input type="text" class="form-control" placeholder="Ingrese sus Apellidos" name="apellidos" value="<%= usuarioEditar.apellidos %>">
+    </div>
+
+    <div class="form-group">
+        <label>Correo</label>
+        <input type="email" class="form-control" placeholder="Correo" name="correo" value="<%= usuarioEditar.correo %>">
+    </div>
+
+    <button type="submit" class="btn btn-success">Crear Usuario :)</button>
+    
+</form>

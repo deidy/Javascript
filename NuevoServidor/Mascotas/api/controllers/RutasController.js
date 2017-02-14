@@ -38,6 +38,10 @@ module.exports = {
         
     },
     
+    editarUsuarios: function (req, res) {
+        return res.view('vistas/Usuario/editarUsuario')  
+    },
+    
     error: function (req, res) {
         return res.view('vistas/Error',{
             error:{
