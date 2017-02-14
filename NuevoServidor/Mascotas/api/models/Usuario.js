@@ -5,6 +5,8 @@
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
+var Passwords = require('machinepack-passwords');
+
 module.exports = {
 
   attributes: {
@@ -21,8 +23,55 @@ module.exports = {
       correo:{
           type:'string',
           email:true,
-          defaultsTo:'correo@invalido.com'
+          required:true,
+          unique:true
+      },
+      password:{
+          type:'string',
+          defaultsTo:'123456'
       }
+  },
+
+  beforeCreate: function (values, cb) {
+      
+      sails.log.info(values);
+//      cb(123123123) //Error
+//      cb() //OK
+      
+      Passwords.encryptPassword({
+          password: values.password,
+      }).exec({
+          // An unexpected error occurred.
+          error: function (err) {
+              cb(err)
+          },
+          success: function (result) {
+              values.password = result;
+              cb();
+          },
+      });
+      
+  },
+    
+    beforeUpdate: function (values, cb) {
+        
+        if(values.password){
+            Passwords.encryptPassword({
+                password: values.password,
+            }).exec({
+          // An unexpected error occurred.
+                error: function (err) {
+                cb(err)
+                },
+                success: function (result) {
+                values.password = result;
+                cb();
+                },
+            });
+        }else{
+            cb();
+        }
+      
   }
     
 };
