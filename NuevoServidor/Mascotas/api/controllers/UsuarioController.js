@@ -129,7 +129,7 @@ module.exports = {
         
         var parametros = req.allParams();
         
-        if (parametros.id && (parametros.nombres || parametros.apellidos || parametros.correo)) {
+        if (parametros.idUsuario && (parametros.nombres || parametros.apellidos || parametros.correo)) {
                     
             var usuarioEditar = {
                 nombres: parametros.nombres,
@@ -150,9 +150,8 @@ module.exports = {
             }
             
             Usuario.update({
-                id: parametros.id
+                id: parametros.idUsuario
             }).exec(function (errorInesperado, usuarioRemovido) {
-                
                 if (errorInesperado) {
                     return res.view('vistas/Error', {
                         error: {
@@ -163,9 +162,9 @@ module.exports = {
                     });
                 }
                 
-                Usuario.find().exec(function (err, usuariosEncontrados) {
+                Usuario.find().exec(function (errorIndefinido, usuariosEncontrados) {
                     
-                    if (err) {
+                    if (errorIndefinido) {
                         res.view('vistas/Error', {
                             error: {
                                 descripcion: "Hubo un problema cargando los usuarios"
@@ -185,7 +184,7 @@ module.exports = {
                 error: {
                     descripcion: "Necesitamos que envíes el ID y el nombre, apellido o correo"
                     , rawError: "No envía parámetros"
-                    , url: "/EditarUsuarios"
+                    , url: "/ListarUsuarios"
                 }
             });
         }
