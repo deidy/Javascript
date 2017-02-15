@@ -1,98 +1,143 @@
-# Repositorio de Tecnologías Web con Js
+## Comandos Importantes
 
-Este repositorio forma parte del [Curso de tecnologías web](https://github.com/adrianeguez/Tec_Web_Js_2016_B)
+### Instalar sailsja
 
-## Enfasis de Texto
+Sailsjs es un servidor web que se conecta a bases de daros y puede funcionar con aplicaciones en timepo real.
 
-* Para nosotros utilizar un texto en **negrita** se utilizan dos "**".
-* Para nosotros utilizar un texto en *cursiva* se utiliza un "*".
-* Para nosotros ~~tachar un texto~~ necesitas usar dos "~".
+>npm install -g sails
 
-## Listas Ordenadas
+El -g nos deja utilizarlo de manera global
 
-1. El número
-2. De las listas
-  * lista no ordenada 1 (dos espacios " " antes del asterisco)
-  * Lista no ordenada 2 (dos espacios " " antes del asterisco)
-1. Ordenadas
-  1. Esta si es una lista ordenada (con dos espacios " " antes de los números).
-  2. Esta es la segunda línea ordenada (con dos espacios " " antes de los números).
-4. No importa
+### Crear un proyecto en Sailsjs
 
-## Links
+>sails new NombreProyecto
 
-Para utilizar un [Link](https://github.com/adrianeguez/Tec_Web_Js_2016_B) debemos de encerrar el texto en brackets [] seguido del URL en parentesis ()
+### Levantar el servidor
 
-## Imagenes
+>sails lift
 
-Para nosotros utilizar imagenes debemos de colocar un texto alternativo en brackets[] despues del caracter de exclamación ! y el link de la imagen entre parentesis ()
-![Imagen de Js en color amarillo](http://nodeframework.com/assets/img/js.png "Javascript")
+El sails les pide opciones sino estan definifas, las opciones son:
 
-## Formato de Codigo
+- 1: SAFE MODE no se va a alterar la base de datos
+- 2: ALTER MODE se va a alterar la base de daros si nosotros hicimos cambios en los modelos por ejemplo
+- 3: DELETE MODE borra todos los datos de la base y vuelve a crear los modelos.
 
-Para nosotros utilizar el formateo de copdigo dentro de texto plano debemos utilizar el caracter `Tilde Invertida`
+### Servidor Web de Sailsjs
 
-Para utilizar el formateo de codigo en un bloque de codigo necesitamos utilizar 3 `Tildes invertidas` donde se oyede especificar el lenguaje de programacion a usarse para el formateo del codigo, justo despues de las 3 `Tildes invertidas`
+El servidor web de sails se encuentra localizado en la carpeta **assets**
 
-```javascript
-var mensaje="Hola mundo";
+## Generar Controladores Sailsjs
+
+Para generar controladores se utiliza el siguiente comando:
+
+>sails generate controller NombreControlador
+
+## Generar Modelos Sailsjs
+
+Para generar controladores se utiliza el siguiente comando:
+
+>sails generate model NombreModelo
+
+## Generar APIs Sailsjs
+
+Para generar api se utiliza el siguiente comando:
+
+>sails generate api NombreAPI
+
+Un API es la fusión de un **Controlador** y de un **Modelo**
+
+# API REST
+
+## Modelo Usuario
+
+### Crear Usuario
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`POST`
+
+Datos:
+
+``javascript 
+{
+    nombre:'Dei',
+    apellido:'Quishpe',
+    correo:'deidamia.quishpe@epn.edu.ec'
+}
+``
+
+### Buscar Usuarios
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`GET`
+
+Datos:
+
+```javascript 
+{
+    
+}
 ```
 
-* Bloque de codigo de una `consola`
+### Buscar un Usuario
 
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`GET`
+
+Datos:
+
+```javascript 
+{
+    
+}
 ```
-> apt-get update paquete
->
+
+### Eliminar Usuario
+
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`DELETE`
+
+Datos:
+
+```javascript 
+{
+    
+}
 ```
 
-* Bloque de HTML
+### Actualizar Usuario
 
+URL:
+
+`http://localhost:1337/Usuario`
+
+Metodo HTTP:
+
+`DELETE`
+
+Datos:
+
+```javascript 
+{
+    
+}
 ```
-<html>
-</html>
-```
-
-## Tablas
-
-Para usar tablas necesitamos definir las filas con "|" y 3 "-" para separar el titulo en cada columna
-
-Columna 1 | Columna 2 | Columna 3 | Columna 4
---- | --- | --- | ---
-Valor 1 C1 | Valor 1 C2 | Valor 1 C3 | Valor 1 C4 
-Valor 2 C1 | Valor 2 C2 | Valor 2 C3 | Valor 2 C4 
-Valor 3 C1 | Valor 3 C2 | Valor 3 C3 | Valor 3 C4 
-Valor 4 C1 | Valor 4 C2 | Valor 4 C3 | Valor 4 C4 
-
-## Citas (no de humanos sino de texto)
-
-Para escribir varias líneas de citas solamente las concatenamos en la siguiente línea utilizando mayor que `>`:
-
-> Yo solo se, que nada se. NO OLVIDARSE DEL SALTO DE LINEA
-
-> Un filosofo random. NO OLVIDARSE DEL SALTO DE LINEA
-
-Sino utilizamos una cita en una linea con el mayor que `>`:
-
-> Y si me matas, ¿Me muero?
-
-## Saltos de Línea
-
-Para utilizar un salto de lunea debemos utilizar mas de 3 veces el caracter `-`
-
----
-
-O el caracter `*`
-
-***
-
-O el caracter `__`
-
-___
-
-> Otro quote :)
-
-## Videos de Youtube
-
-Es uso puro de HTML dentro de markdown
-<a href="https://www.youtube.com/watch?v=B1MJqT21Bx4" target="_blank"><img src="http://nodeframework.com/assets/img/js.png" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
