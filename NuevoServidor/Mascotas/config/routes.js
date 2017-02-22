@@ -42,7 +42,13 @@ module.exports.routes = {
     
     'get /ListarUsuarios':  'RutasController.listarUsuarios',
     
-    'get /EditarUsuarios':  'RutasController.editarUsuarios',
+    'get /EditarUsuario':  'RutasController.editarUsuario',
+    
+    'get /CrearRaza':  'RutasController.crearRaza',
+    
+    'get /ListarRazas':  'RutasController.listarRazas',
+    
+    'get /EditarRaza':  'RutasController.editarRaza',
     
     '/Login':  { view: 'login'}
     

@@ -126,71 +126,73 @@ module.exports = {
     },
     
     editarUsuario: function (req, res) {
-        
+
         var parametros = req.allParams();
-        
+
         if (parametros.idUsuario && (parametros.nombres || parametros.apellidos || parametros.correo)) {
-                    
-            var usuarioEditar = {
+            
+            var usuarioAEditar = {
                 nombres: parametros.nombres,
                 apellidos: parametros.apellidos,
-                correo: parametros.correo
+                correo: parametros.correo,
+                password: parametros.password
             }
-            
-            if(usuarioEditar.nombres = ""){
-                delete usuarioEditar.nombres
+
+            if (usuarioAEditar.nombres == "") {
+                delete usuarioAEditar.nombres
             }
-            
-            if(usuarioEditar.apellidos = ""){
-                delete usuarioEditar.apellidos
+            if (usuarioAEditar.apellidos == "") {
+                delete usuarioAEditar.apellidos
             }
-            
-            if(usuarioEditar.correo = ""){
-                delete usuarioEditar.correo
+            if (usuarioAEditar.correo == "") {
+                delete usuarioAEditar.correo
             }
-            
-            if(usuarioEditar.password = ""){
-                delete usuarioEditar.password
+            if (usuarioAEditar.password == "") {
+                delete usuarioAEditar.password
             }
-            
+
             Usuario.update({
-                id: parametros.idUsuario
-            }).exec(function (errorInesperado, usuarioRemovido) {
-                if (errorInesperado) {
-                    return res.view('vistas/Error', {
-                        error: {
-                            descripcion: "Tuvimos un Error Inesperado"
-                            , rawError: errorInesperado
-                            , url: "/ListarUsuarios"
-                        }
-                    });
-                }
-                
-                Usuario.find().exec(function (errorIndefinido, usuariosEncontrados) {
-                    
-                    if (errorIndefinido) {
-                        res.view('vistas/Error', {
+                    id: parametros.idUsuario
+                }, usuarioAEditar)
+                .exec(function (errorInesperado, UsuarioRemovido) {
+                    if (errorInesperado) {
+                        return res.view('vistas/Error', {
                             error: {
-                                descripcion: "Hubo un problema cargando los usuarios"
-                                , rawError: error
-                                , url: "/ListarUsuarios"
+                                desripcion: "Tuvimos un Error Inesperado",
+                                rawError: errorInesperado,
+                                url: "/ListarUsuarios"
                             }
                         });
                     }
-                    res.view('vistas/Usuario/ListarUsuarios', {
-                        usuarios: usuariosEncontrados
-                    });
+                
+                    Usuario.find()
+                        .exec(function (errorIndefinido, usuariosEncontrados) {
+
+                            if (errorIndefinido) {
+                                res.view('vistas/Error', {
+                                    error: {
+                                        desripcion: "Hubo un problema cargando los Usuarios",
+                                        rawError: errorIndefinido,
+                                        url: "/ListarUsuarios"
+                                    }
+                                });
+                            }
+
+                            res.view('vistas/Usuario/ListarUsuarios', {
+                                usuarios: usuariosEncontrados
+                            });
+                        })
                 })
-            })
-        }
-        else {
+
+        } else {
             return res.view('vistas/Error', {
                 error: {
-                    descripcion: "Necesitamos que envíes el ID y el nombre, apellido o correo"
-                    , rawError: "No envía parámetros"
-                    , url: "/ListarUsuarios"
+                    desripcion: "Necesitamos que envies el ID y el nombre, apellido o correo",
+                    rawError: "No envia Parametros",
+                    url: "/ListarUsuarios"
                 }
             });
         }
+
     }
 };
