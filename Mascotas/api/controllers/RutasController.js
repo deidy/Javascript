@@ -160,6 +160,51 @@ module.exports = {
             });
 
         }
+    },
+    
+    editarMascota: function (req, res) {
+
+    var parametros = req.allParams();
+        
+    if (parametros.id) {
+      Mascota.findOne({
+        id: parametros.id
+      }).exec(function (error, mascotaEncontrado) {
+        if (error) return res.view('error', {
+          title: 'Error',
+          error: {
+            descripcion: 'Fallo al buscar la mascota',
+            url: '/crearMascotas'
+          }
+        });
+
+
+        Raza.find().exec(function (error, razasEncontrados) {
+          if (error) return res.view('error', {
+            title: 'Error',
+            error: {
+              descripcion: 'Fallo al buscar la mascota',
+              url: '/crearMascotas'
+            }
+          });
+
+          return res.view('vistas/Mascota/editarMascota', {
+            title: 'Editar Mascota - ' + mascotaEncontrado.nombre,
+            mascota: mascotaEncontrado,
+            razas: razasEncontrados
+          })
+        });
+
+      });
+
+    } else {
+      return res.view('error', {
+        title: 'Error',
+        error: {
+          descripcion: 'No existe el ID'
+        }
+      });
     }
+  }
 
 };

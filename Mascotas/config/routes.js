@@ -50,6 +50,8 @@ module.exports.routes = {
     
     'get /EditarRaza':  'RutasController.editarRaza',
     
+    'get /EditarMascota':  'RutasController.editarMascota',
+    
     '/Login':  { view: 'login'}
     
 

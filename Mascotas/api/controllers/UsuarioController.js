@@ -194,5 +194,64 @@ module.exports = {
             });
         }
 
+    },
+    
+    editarMascota: function (req, res) {
+
+    var parametros = req.allParams();
+    sails.log.info(parametros);
+    if (req.method == 'POST') {
+      if (parametros.nombre && parametros.paisNacimiento && parametros.idRaza) {
+
+        Mascota.update({
+          id: parametros.id
+        }, {
+          nombre: parametros.nombre,
+          fechaNacimiento: parametros.fechaNacimiento,
+          paisNacimiento: parametros.paisNacimiento,
+          idRaza: parametros.idRaza,
+        }).exec(function (error, mascotaCreado) {
+          if (error) {
+            return res.view('error', {
+              title: 'Error',
+              error: {
+                descripcion: 'Hubo un error creando la mascota: ' + error,
+                url: '/crearUsuario'
+              }
+            });
+          }
+            
+          Mascota.find().exec(function (error, mascotasEncontrados) {
+            if (error) return res.serverError()
+            return res.view('vistas/Mascota/listarMascotas', {
+              title: 'Lista de Mascotas',
+              mascotas: mascotasEncontrados
+            })
+          });
+
+        });
+
+      } else {
+        // bad Request
+        console.log('NO PARAMETROS');
+        return res.view('error', {
+          title: 'Error',
+          error: {
+            descripcion: 'No envia todos los parametros',
+            url: '/editarMascota'
+          }
+        });
+      }
+    } else {
+      console.log('POST');
+      return res.view('error', {
+        title: 'Error',
+        error: {
+          descripcion: 'Falla en el metodo HTTP',
+          url: '/editarMascota'
+        }
+      });
     }
+
+  }
 };
