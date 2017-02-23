@@ -11,6 +11,9 @@ export class AppComponent implements OnInit {
   nombre: string = "";
   apellido: string = "";
   colorH3 = "red";
+
+  nuevaTienda:any={};
+
   constructor() {
     this.apellido = "Eguez";
     this.nombre = "Adrian";
@@ -33,5 +36,9 @@ export class AppComponent implements OnInit {
   focus(){
     console.log("Hizo Focus");
     //console.log(nombreUsuario);
+  }
+
+  crearTienda(formulario){
+    console.log(formulario);
   }
 }
