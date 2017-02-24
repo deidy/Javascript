@@ -21,6 +21,10 @@ export class AppComponent implements OnInit {
 
   nuevaTienda: any = {};
 
+  disabledButtons = {
+    NuevaTiendaFormSubmitButton: false
+  };
+
 
   constructor(private _http: Http,
               private _masterURL: MasterURLService) {
@@ -50,6 +54,7 @@ export class AppComponent implements OnInit {
   }
 
   crearTienda(formulario) {
+    this.disabledButtons.NuevaTiendaFormSubmitButton = true;
     console.log(formulario);
 
     this._http.post(this._masterURL.url + "Tienda", {
@@ -58,9 +63,11 @@ export class AppComponent implements OnInit {
       (res) => {
         console.log("No hubo Errores");
         console.log(res);
-        this.nuevaTienda = {}
+        this.nuevaTienda = {};
+        this.disabledButtons.NuevaTiendaFormSubmitButton = false;
       },
       (err) => {
+        this.disabledButtons.NuevaTiendaFormSubmitButton = false;
         console.log("Ocurrio un error", err);
       },
       () => {
