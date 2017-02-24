@@ -11,6 +11,7 @@ import {MasterURLService} from "../services/master-url.service";
 export class ProductoComponent implements OnInit {
   private _parametros:any;
   productos = [];
+  nuevoProducto = {};
 
   constructor(private _ActivatedRoute: ActivatedRoute,
               private _http:Http,
@@ -33,4 +34,20 @@ export class ProductoComponent implements OnInit {
     });
   }
 
+  crearProducto(nombre:string){
+    let producto = {
+      nombre:nombre,
+      idTienda:this._parametros.idTienda
+    };
+    this._http.post(this._masterURL.url+"Producto",producto)
+      .subscribe(
+        (res:Response)=>{
+          this.nuevoProducto = {};
+          this.productos.push(res.json());
+        },
+        (err)=>{
+          console.log(err);
+        }
+      )
+  }
 }
