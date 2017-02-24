@@ -1,10 +1,12 @@
 import {Component, OnInit} from "@angular/core";
 import {Response, Http} from "@angular/http";
+import {MasterURLService} from "./services/master-url.service";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [MasterURLService]
 })
 // CTRL A +  -  CTRL + ALT + L
 export class AppComponent implements OnInit {
@@ -15,14 +17,17 @@ export class AppComponent implements OnInit {
   tamanoH4 = "52px";
   classes = "btn btn-block btn-success";
 
-  nuevaTienda:any={};
+  error: string = "No hay errores";
+
+  nuevaTienda: any = {};
 
 
+  constructor(private _http: Http,
+              private _masterURL: MasterURLService) {
 
-  constructor(private http: Http) {
     this.apellido = "Eguez";
     this.nombre = "Adrian";
-    console.log("Inicio el construcor")
+    console.log("Inicio el constructor")
   }
 
   ngOnInit() {
@@ -44,17 +49,32 @@ export class AppComponent implements OnInit {
     console.log("Hizo focus");
   }
 
-
-  crearTienda(formulario){
+  crearTienda(formulario) {
     console.log(formulario);
-    this.http
-      .post("http://localhost:1337/Tienda", formulario.valores)
-      .subscribe(
-        res=>console.log('Respuesta: ',res),
-        err=>console.log('Error: ',err),
-        ()=>{
-          console.log("Se completo la accion")
-        }
-      );
+
+    this._http.post(this._masterURL.url + "Tienda", {
+      nombre: formulario.value.nombre
+    }).subscribe(
+      (res) => {
+        console.log("No hubo Errores");
+        console.log(res);
+        this.nuevaTienda = {}
+      },
+      (err) => {
+        console.log("Ocurrio un error", err);
+      },
+      () => {
+        console.log("Termino la función vamos a las casas")
+      }
+    );
+
+    // .post("http://localhost:1337/Tienda", formulario.valores)
+    // .subscribe(
+    //   res=>console.log('Respuesta: ',res),
+    //   err=>console.log('Error: ',err),
+    //   ()=>{
+    //     console.log("Se completo la accion")
+    //   }
+    // );
   }
 }
