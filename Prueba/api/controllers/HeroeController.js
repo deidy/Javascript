@@ -18,7 +18,8 @@ module.exports = {
                 var heroeCrear = {
                     nombre: parametros.nombre,
                     castillo: parametros.castillo,
-                    nivel: parametros.nivel
+                    nivel: parametros.nivel,
+                    imagen: parametros.imagen
                 }
                 
                 if (parametros.nombre == "") {
@@ -31,6 +32,10 @@ module.exports = {
                 
                 if (parametros.nivel == "") {
                     delete heroeCrear.nivel;
+                }
+                
+                if (parametros.imagen == "") {
+                    delete heroeCrear.imagen;
                 }
                 
                 //Todos los métodos son con el modelo
@@ -136,12 +141,13 @@ module.exports = {
 
         var parametros = req.allParams();
 
-        if (parametros.idHeroe && (parametros.nombre || parametros.castillo || parametros.nivel)) {
+        if (parametros.idHeroe && (parametros.nombre || parametros.castillo || parametros.nivel || parametros.imagen)) {
             
             var heroeAEditar = {
                 nombre: parametros.nombre,
                 castillo: parametros.castillo,
-                nivel: parametros.nivel
+                nivel: parametros.nivel,
+                imagen: parametros.imagen
             }
 
             if (heroeAEditar.nombre == "") {
@@ -152,6 +158,9 @@ module.exports = {
             }
             if (heroeAEditar.nivel == "") {
                 delete heroeAEditar.nivel
+            }
+            if (heroeAEditar.imagen == "") {
+                delete heroeAEditar.imagen
             }
 
             Heroe.update({

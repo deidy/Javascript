@@ -20,6 +20,10 @@ module.exports = {
           type:'integer',
           required:true
         },
+        imagen:{
+          type:'string',
+          required:true
+        },
         poderes: {
             collection: 'Poder',
             via: 'idHeroe'

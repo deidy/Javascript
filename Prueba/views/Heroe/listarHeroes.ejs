@@ -13,12 +13,12 @@
 
 <% for(var i=0; i<heroes.length; i++){ %>
 
-<div class="row ma-margen-top-bottom">
+<div class="row ma-margen-top-bottom ma-padding-top-bottom">
   
    <div class="col-sm-1"></div>
    
     <div class="col-sm-4">
-       <div class="text-center ma-borde ma-padding-top-bottom">
+       <div class="text-center">
            <h1> <%= heroes[i].nombre %> </h1>
        </div>
     </div>
@@ -26,10 +26,10 @@
     <div class="col-sm-1"></div>
     
     <div class="col-sm-5">
-        <div class="text-center ma-borde" style="margin-top: 27px;">
-            <h3> <%= heroes[i].nombre %> </h3>
+        <div class="text-center" style="margin-top: 27px;">
             <h4> <%= heroes[i].castillo %> </h4>
             <p> <%= heroes[i].nivel %> </p>
+            <img  width="150" height="150" src="<%= heroes[i].imagen %>" alt="heroe">
         </div>
     </div>
     
