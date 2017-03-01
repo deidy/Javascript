@@ -10,12 +10,10 @@ module.exports = {
   attributes: {
         nombre: {
             type: 'string',
-            minLength:5,
             required: true
         },
         castillo: {
             type: 'string',
-            minLength:5,
             required: true
         },
         nivel:{
