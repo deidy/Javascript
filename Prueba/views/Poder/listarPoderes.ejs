@@ -12,6 +12,7 @@
 <br>
 
     <% for(var i=0; i<poderes.length; i++){ %>
+    <div class="row ma-margen-top-bottom ma-padding-top-bottom">
 <div class="col-sm-1"></div>
      
       <div class="col-sm-4">
@@ -33,5 +34,5 @@
 			<a href="/Poder/borrarPoder?id=<%= poderes[i].id%>" class="btn btn-danger btn-block">X</a>
 			<a href="/EditarPoder?id=<%= poderes[i].id%>" class="btn btn-info btn-block">Edit</a>
 		</div>
-      
+</div>    
       <%  } %>
