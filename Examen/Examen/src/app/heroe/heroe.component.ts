@@ -9,7 +9,7 @@ import {Response, Http} from "@angular/http";
 })
 export class HeroeComponent implements OnInit {
 
-  title: string = "Bienvenido!! Aquí podrás ingresar tus héroes favoritos";
+  title: string = "Aquí podrás ingresar tus héroes favoritos";
   nuevoHeroe = {};
   heroes = [];
 

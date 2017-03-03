@@ -1,5 +1,5 @@
-<h1>Poderes de Héroes</h1>
-<h2>
+<h1 class="text-center">Poderes de Héroes</h1>
+<h2 class="text-center">
   {{title}}
 </h2>
 <div class="container">
@@ -8,9 +8,6 @@
       <form class="animated bounceIn" (ngSubmit)="crearPoder(NuevoPoderForm)" #NuevoPoderForm="ngForm">
         <div class="form-group">
           <label>Nombre del Poder:</label>
-          <div class="animated slideInUp" [hidden]="!nombrePoder.errors">
-            <span style="font-size: 40px" class="bg-primary" *ngIf="nombrePoder.errors && (nombrePoder.dirty || nombrePoder.touched)">Ingrese un nombre mínimo con 4 caracteres</span>
-          </div>
           <input required
                  type="text"
                  class="form-control"
@@ -58,8 +55,11 @@
   </div>
 
   <br><br>
+  <br><br>
 
-  <div class="row" style="border-bottom: solid">
+  <h1 class="text-center" style="border-top: solid; padding-top: 1cm">Lista de Poderes para cada Héroe</h1>
+
+  <div class="row" style="border-bottom: solid; padding-bottom: 1cm; padding-top: 1cm">
     <div class="col-sm-12 animated flipInX" *ngFor="let poder of poderes">
       <div class="col-sm-5 text-center">
         <h3>{{poder.nombrePoder}}</h3>
@@ -86,9 +86,6 @@
           <form class="animated bounceIn" (ngSubmit)="editarPoder(poder, poder.id)" #NuevoPoderForm="ngForm">
             <div class="form-group">
               <label>Nombre del Poder:</label>
-              <div class="animated slideInUp" [hidden]="!nombrePoder.errors">
-                <span style="font-size: 40px" class="bg-primary" *ngIf="nombrePoder.errors && (nombrePoder.dirty || nombrePoder.touched)">Ingrese un nombre mínimo con 4 caracteres</span>
-              </div>
               <input required
                      type="text"
                      class="form-control"
