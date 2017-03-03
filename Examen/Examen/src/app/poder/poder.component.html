@@ -59,8 +59,8 @@
 
   <h1 class="text-center" style="border-top: solid; padding-top: 1cm">Lista de Poderes para cada Héroe</h1>
 
-  <div class="row" style="border-bottom: solid; padding-bottom: 1cm; padding-top: 1cm">
-    <div class="col-sm-12 animated flipInX" *ngFor="let poder of poderes">
+  <div class="row">
+    <div class="col-sm-12 animated flipInX" style="border-bottom: solid; padding-bottom: 1cm; padding-top: 1cm"  *ngFor="let poder of poderes">
       <div class="col-sm-5 text-center">
         <h3>{{poder.nombrePoder}}</h3>
       </div>

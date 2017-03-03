@@ -51,7 +51,7 @@ export class PoderComponent implements OnInit {
     let poder = {
       nombrePoder: formulario.value.nombrePoder,
       danioPoder: formulario.value.danioPoder,
-      nivelPoder: formulario.value.nivelHeroe,
+      nivelPoder: formulario.value.nivelPoder,
       idHeroe:this._parametros.idHeroe
     };
 
