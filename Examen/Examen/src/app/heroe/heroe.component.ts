@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MasterURLService} from "../services/master-url.service";
+import {Response, Http} from "@angular/http";
 
 @Component({
   selector: 'app-heroe',
@@ -7,9 +9,87 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroeComponent implements OnInit {
 
-  constructor() { }
+  title: string = "Bienvenido!! Aquí podrás ingresar tus héroes favoritos";
+  nuevoHeroe = {};
+  heroes = [];
+
+  disabledButtons = {
+    NuevoHeroeFormSubmitButton: false
+  };
+
+  constructor(private _http: Http,
+              private _masterURL: MasterURLService) { }
 
   ngOnInit() {
+    this._http.get(this._masterURL.url + "Heroe")
+      .subscribe(
+        (res: Response) => {
+          this.heroes = res.json()
+            .map((value) => {
+              value.formularioCerrado = true;
+              return value;
+            });
+        },
+        (err) => {
+          console.log(err);
+        }
+      )
   }
 
+  crearHeroe(formulario) {
+    this.disabledButtons.NuevoHeroeFormSubmitButton = true;
+    console.log(formulario);
+
+    let heroe = {
+      nombreHeroe: formulario.value.nombreHeroe,
+      castilloHeroe: formulario.value.castilloHeroe,
+      nivelHeroe: formulario.value.nivelHeroe
+    };
+
+    this._http.post(this._masterURL.url + "Heroe", heroe)
+      .subscribe(
+        (res) => {
+          console.log("No hubo Errores");
+          console.log(res);
+          this.heroes.push(res.json());
+          this.nuevoHeroe = {};
+          this.disabledButtons.NuevoHeroeFormSubmitButton = false;
+        },
+        (err) => {
+          this.disabledButtons.NuevoHeroeFormSubmitButton = false;
+          console.log("Ocurrio un error", err);
+        }
+      );
+  }
+
+  borrarHeroe(id: number) {
+    this._http.delete(this._masterURL.url + "Heroe/" + id)
+      .subscribe(
+        (res) => {
+          let heroeBorrado = res.json();
+          this.heroes = this.heroes.filter(value => heroeBorrado.id != value.id);
+        },
+        (err) => {
+          console.log("Ocurrio un error", err);
+        }
+      )
+  }
+
+  editarHeroe(heroe: any) {
+    let parametos = {
+      nombreHeroe: heroe.nombreHeroe,
+      castilloHeroe: heroe.castilloHeroe,
+      nivelHeroe: heroe.nivelHeroe
+    };
+    this._http.put(this._masterURL.url + "Heroe/" + heroe.id, parametos)
+      .subscribe(
+        (res: Response) => {
+          heroe.formularioCerrado = !heroe.formularioCerrado;
+          console.log("Respuesta:", res.json());
+        },
+        (err) => {
+          console.log("Error:", err);
+        }
+      )
+  }
 }
