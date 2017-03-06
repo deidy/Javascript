@@ -7,6 +7,7 @@ export class MasterURLService {
 
   constructor() {
     this._url = "http://localhost:1337/";
+    this._url = "";
   }
 
   get url():string{
@@ -16,4 +17,5 @@ export class MasterURLService {
   set url(nuevoUrl:string){
     this._url = nuevoUrl;
   }
+
 }

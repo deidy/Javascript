@@ -1,17 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import {MasterURLService} from "./services/master-url.service";
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  providers: [MasterURLService]
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
 
-  constructor() {
-  }
-
-  ngOnInit() {
-  }
+export class AppComponent {
+  title = 'app works!';
 }

@@ -5,16 +5,16 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import {MasterURLService} from "./services/master-url.service";
-import { HomeComponent } from './home/home.component';
 import { HeroeComponent } from './heroe/heroe.component';
+import { HomeComponent } from './home/home.component';
 import { PoderComponent } from './poder/poder.component';
 import {routing} from "./app.routes";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HeroeComponent,
+    HomeComponent,
     PoderComponent
   ],
   imports: [

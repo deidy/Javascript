@@ -43,7 +43,8 @@ export class HeroeComponent implements OnInit {
     let heroe = {
       nombreHeroe: formulario.value.nombreHeroe,
       castilloHeroe: formulario.value.castilloHeroe,
-      nivelHeroe: formulario.value.nivelHeroe
+      nivelHeroe: formulario.value.nivelHeroe,
+      imagenHeroe: formulario.value.imagenHeroe
     };
 
     this._http.post(this._masterURL.url + "Heroe", heroe)
@@ -79,7 +80,8 @@ export class HeroeComponent implements OnInit {
     let parametos = {
       nombreHeroe: heroe.nombreHeroe,
       castilloHeroe: heroe.castilloHeroe,
-      nivelHeroe: heroe.nivelHeroe
+      nivelHeroe: heroe.nivelHeroe,
+      imagenHeroe: heroe.imagenHeroe
     };
     this._http.put(this._masterURL.url + "Heroe/" + heroe.id, parametos)
       .subscribe(
@@ -92,4 +94,5 @@ export class HeroeComponent implements OnInit {
         }
       )
   }
+
 }

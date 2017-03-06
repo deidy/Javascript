@@ -75,7 +75,8 @@
         <div class="col-sm-7 text-center">
           <p> Castillo: {{heroe.castilloHeroe}} </p>
           <p> Nivel: {{heroe.nivelHeroe}}</p>
-          <!--<img ng-src="{{heroe.imagenHeroe}}">-->
+          <img [src]="heroe.imagenHeroe" width="150" height="150">
+          <br>
           <a [routerLink]="[heroe.id,'poder']">Ir a Poderes</a>
         </div>
       </div>
